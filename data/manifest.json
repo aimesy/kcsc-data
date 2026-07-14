@@ -1,10 +1,10 @@
 {
   "archive": {
-    "cases": 67123,
+    "cases": 67911,
     "cases_dir": "archive/cases",
     "cases_index": "archive/cases-index.ndjson",
-    "cases_index_rows": 67123,
-    "cases_index_size_bytes": 52261840
+    "cases_index_rows": 67911,
+    "cases_index_size_bytes": 52874577
   },
   "court": "King County Superior Court",
   "court_id": "kcsc",
@@ -13,7 +13,7 @@
     "note": "KCSC document-list rows are preserved in canonical case JSON under kcsc.document_rows_deferred; document byte capture is not implemented yet.",
     "table": null
   },
-  "generated_at": "2026-07-14T03:00:05Z",
+  "generated_at": "2026-07-14T05:07:08Z",
   "jurisdiction": "King County, WA",
   "normalization": {
     "archive_dir": "/srv/kcsc-data/archive/cases",
@@ -292,45 +292,50 @@
       "/var/lib/kcsc/runs/kcsc-incremental-20260714T005225Z-20200522-20200522/detail-merged/normalized",
       "/var/lib/kcsc/runs/kcsc-incremental-20260714T011013Z-20200204-20200204/detail-merged/normalized",
       "/var/lib/kcsc/runs/kcsc-incremental-20260714T013621Z-20200526-20200526/detail-merged/normalized",
-      "/var/lib/kcsc/runs/kcsc-incremental-20260714T022109Z-20200527-20200527/detail-merged/normalized"
+      "/var/lib/kcsc/runs/kcsc-incremental-20260714T022109Z-20200527-20200527/detail-merged/normalized",
+      "/var/lib/kcsc/runs/kcsc-incremental-20260714T022256Z-20200206-20200206/detail-merged/normalized",
+      "/var/lib/kcsc/runs/kcsc-incremental-20260714T024844Z-20200528-20200528/detail-merged/normalized",
+      "/var/lib/kcsc/runs/kcsc-incremental-20260714T032756Z-20200210-20200210/detail-merged/normalized",
+      "/var/lib/kcsc/runs/kcsc-incremental-20260714T033105Z-20200529-20200529/detail-merged/normalized",
+      "/var/lib/kcsc/runs/kcsc-incremental-20260714T040707Z-20200601-20200601/detail-merged/normalized"
     ],
     "out_dir": "/srv/kcsc-data/data",
     "tables": {
-      "attorneys": 14509,
-      "calendar": 281907,
-      "cases": 67123,
-      "docket_entries": 420252,
-      "parties": 22183,
+      "attorneys": 14706,
+      "calendar": 286153,
+      "cases": 67911,
+      "docket_entries": 425610,
+      "parties": 22529,
       "payments": 0,
-      "representation": 15064
+      "representation": 15275
     }
   },
   "source": "kcsc_portal",
   "tables": {
     "attorneys": {
       "path": "data/attorneys.parquet",
-      "rows": 14509,
-      "size_bytes": 918274
+      "rows": 14706,
+      "size_bytes": 929721
     },
     "calendar": {
       "path": "data/calendar.parquet",
-      "rows": 281907,
-      "size_bytes": 8983856
+      "rows": 286153,
+      "size_bytes": 9111538
     },
     "cases": {
       "path": "data/cases.parquet",
-      "rows": 67123,
-      "size_bytes": 84328245
+      "rows": 67911,
+      "size_bytes": 85499293
     },
     "docket_entries": {
       "path": "data/docket_entries.parquet",
-      "rows": 420252,
-      "size_bytes": 6747210
+      "rows": 425610,
+      "size_bytes": 6832811
     },
     "parties": {
       "path": "data/parties.parquet",
-      "rows": 22183,
-      "size_bytes": 1275937
+      "rows": 22529,
+      "size_bytes": 1293595
     },
     "payments": {
       "path": "data/payments.parquet",
@@ -339,8 +344,8 @@
     },
     "representation": {
       "path": "data/representation.parquet",
-      "rows": 15064,
-      "size_bytes": 964382
+      "rows": 15275,
+      "size_bytes": 976629
     }
   }
 }
