@@ -3,7 +3,8 @@
 Generated cross-court data contract output for King County Superior Court.
 
 - `archive/cases/<case_number>.json` contains one canonical JSON document per case.
-- `archive/cases-index.ndjson` is the compact case startup index.
+- `archive/cases-index/manifest.json` describes the compact startup index.
+- `archive/cases-index/<prefix>.ndjson` contains deterministic case-number-prefix shards.
 - `data/*.parquet` contains flat derived tables built from the canonical JSON.
 - `data/manifest.json` lists current table paths, counts, and byte sizes for
   static viewers.
@@ -22,15 +23,6 @@ Typical command from `/srv/kcsc`:
 python scripts/build_data_manifest.py --data-root /srv/kcsc-data
 ```
 
-Current generated counts:
-
-- `archive/cases/*.json`: 822 canonical cases.
-- `archive/cases-index.ndjson`: 822 rows.
-- `data/cases.parquet`: 822 rows.
-- `data/docket_entries.parquet`: 3,545 rows.
-- `data/parties.parquet`: 366 rows.
-- `data/attorneys.parquet`: 269 rows.
-- `data/representation.parquet`: 271 rows.
-- `data/calendar.parquet`: 501 rows.
-- `data/payments.parquet`: 0 rows with schema.
-- `data/documents.parquet`: intentionally not emitted until KCSC document byte capture exists.
+Current generated counts and byte sizes are recorded in `data/manifest.json`.
+`data/documents.parquet` is intentionally not emitted until KCSC document byte
+capture exists.
