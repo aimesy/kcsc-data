@@ -1,6 +1,6 @@
 {
   "archive": {
-    "cases": 212211,
+    "cases": 212493,
     "cases_dir": "archive/cases",
     "cases_index": "archive/cases-index/manifest.json",
     "cases_index_format": "ndjson-prefix-shards-v1",
@@ -14,26 +14,26 @@
       {
         "path": "archive/cases-index/101.ndjson",
         "prefix": "101",
-        "rows": 708,
-        "size_bytes": 339173
+        "rows": 747,
+        "size_bytes": 357853
       },
       {
         "path": "archive/cases-index/102.ndjson",
         "prefix": "102",
-        "rows": 4844,
-        "size_bytes": 2200831
+        "rows": 5018,
+        "size_bytes": 2280077
       },
       {
         "path": "archive/cases-index/103.ndjson",
         "prefix": "103",
-        "rows": 840,
-        "size_bytes": 377979
+        "rows": 878,
+        "size_bytes": 395086
       },
       {
         "path": "archive/cases-index/104.ndjson",
         "prefix": "104",
-        "rows": 657,
-        "size_bytes": 289105
+        "rows": 688,
+        "size_bytes": 302755
       },
       {
         "path": "archive/cases-index/112.ndjson",
@@ -259,8 +259,8 @@
       }
     ],
     "cases_index_prefix_length": 3,
-    "cases_index_rows": 212211,
-    "cases_index_size_bytes": 96821463
+    "cases_index_rows": 212493,
+    "cases_index_size_bytes": 96950146
   },
   "court": "King County Superior Court",
   "court_id": "kcsc",
@@ -269,7 +269,7 @@
     "note": "KCSC document-list rows are preserved in canonical case JSON under kcsc.document_rows_deferred; document byte capture is not implemented yet.",
     "table": null
   },
-  "generated_at": "2026-07-31T15:20:54Z",
+  "generated_at": "2026-07-31T20:00:38Z",
   "jurisdiction": "King County, WA",
   "normalization": {
     "archive_dir": "/srv/kcsc-data/archive/cases",
@@ -1439,6 +1439,7 @@
       "/var/lib/kcsc/runs/kcsc-incremental-20260731T110527Z-20230117-20230117/detail-merged/normalized",
       "/var/lib/kcsc/runs/kcsc-incremental-20260731T115243Z-20100209-20100209/detail-merged/normalized",
       "/var/lib/kcsc/runs/kcsc-incremental-20260731T125435Z-20250716-20250716/detail-merged/normalized",
+      "/var/lib/kcsc/runs/kcsc-incremental-20260731T175346Z-20100210-20100210/detail-merged/normalized",
       "/var/lib/kcsc/current-runs/kcsc-incremental-20260730T085614Z-20260704-20260706/detail-merged/normalized",
       "/var/lib/kcsc/current-runs/kcsc-incremental-20260730T122856Z-20260707-20260709/detail-merged/normalized",
       "/var/lib/kcsc/current-runs/kcsc-incremental-20260730T180307Z-20260710-20260712/detail-merged/normalized",
@@ -1449,31 +1450,31 @@
     ],
     "out_dir": "/srv/kcsc-data/data",
     "tables": {
-      "attorneys": 48965,
-      "calendar": 976383,
-      "cases": 212211,
+      "attorneys": 49030,
+      "calendar": 976770,
+      "cases": 212493,
       "docket_entries": 1360237,
-      "parties": 84887,
+      "parties": 84988,
       "payments": 0,
-      "representation": 52323
+      "representation": 52388
     }
   },
   "source": "kcsc_portal",
   "tables": {
     "attorneys": {
       "path": "data/attorneys.parquet",
-      "rows": 48965,
-      "size_bytes": 2965781
+      "rows": 49030,
+      "size_bytes": 2968009
     },
     "calendar": {
       "path": "data/calendar.parquet",
-      "rows": 976383,
-      "size_bytes": 29807290
+      "rows": 976770,
+      "size_bytes": 29814598
     },
     "cases": {
       "path": "data/cases.parquet",
-      "rows": 212211,
-      "size_bytes": 7654977
+      "rows": 212493,
+      "size_bytes": 7664367
     },
     "docket_entries": {
       "path": "data/docket_entries.parquet",
@@ -1482,8 +1483,8 @@
     },
     "parties": {
       "path": "data/parties.parquet",
-      "rows": 84887,
-      "size_bytes": 4282124
+      "rows": 84988,
+      "size_bytes": 4287522
     },
     "payments": {
       "path": "data/payments.parquet",
@@ -1492,8 +1493,8 @@
     },
     "representation": {
       "path": "data/representation.parquet",
-      "rows": 52323,
-      "size_bytes": 3099134
+      "rows": 52388,
+      "size_bytes": 3103890
     }
   }
 }
