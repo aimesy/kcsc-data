@@ -1,6 +1,6 @@
 {
   "archive": {
-    "cases": 339186,
+    "cases": 340212,
     "cases_dir": "archive/cases",
     "cases_index": "archive/cases-index/manifest.json",
     "cases_index_format": "ndjson-prefix-shards-v1",
@@ -20,32 +20,32 @@
       {
         "path": "archive/cases-index/101.ndjson",
         "prefix": "101",
-        "rows": 6170,
-        "size_bytes": 2957165
+        "rows": 6195,
+        "size_bytes": 2969147
       },
       {
         "path": "archive/cases-index/102.ndjson",
         "prefix": "102",
-        "rows": 38485,
-        "size_bytes": 17455824
+        "rows": 38740,
+        "size_bytes": 17570518
       },
       {
         "path": "archive/cases-index/103.ndjson",
         "prefix": "103",
-        "rows": 7168,
-        "size_bytes": 3226130
+        "rows": 7186,
+        "size_bytes": 3234167
       },
       {
         "path": "archive/cases-index/104.ndjson",
         "prefix": "104",
-        "rows": 5465,
-        "size_bytes": 2406951
+        "rows": 5482,
+        "size_bytes": 2414427
       },
       {
         "path": "archive/cases-index/112.ndjson",
         "prefix": "112",
-        "rows": 1,
-        "size_bytes": 454
+        "rows": 2,
+        "size_bytes": 905
       },
       {
         "path": "archive/cases-index/174.ndjson",
@@ -176,26 +176,26 @@
       {
         "path": "archive/cases-index/231.ndjson",
         "prefix": "231",
-        "rows": 4384,
-        "size_bytes": 2113158
+        "rows": 4393,
+        "size_bytes": 2117508
       },
       {
         "path": "archive/cases-index/232.ndjson",
         "prefix": "232",
-        "rows": 21551,
-        "size_bytes": 9820956
+        "rows": 21739,
+        "size_bytes": 9906815
       },
       {
         "path": "archive/cases-index/233.ndjson",
         "prefix": "233",
-        "rows": 5615,
-        "size_bytes": 2617986
+        "rows": 5638,
+        "size_bytes": 2628915
       },
       {
         "path": "archive/cases-index/234.ndjson",
         "prefix": "234",
-        "rows": 7489,
-        "size_bytes": 3322907
+        "rows": 7533,
+        "size_bytes": 3342297
       },
       {
         "path": "archive/cases-index/241.ndjson",
@@ -248,31 +248,31 @@
       {
         "path": "archive/cases-index/261.ndjson",
         "prefix": "261",
-        "rows": 1313,
-        "size_bytes": 629326
+        "rows": 1352,
+        "size_bytes": 648074
       },
       {
         "path": "archive/cases-index/262.ndjson",
         "prefix": "262",
-        "rows": 11384,
-        "size_bytes": 5186916
+        "rows": 11674,
+        "size_bytes": 5319204
       },
       {
         "path": "archive/cases-index/263.ndjson",
         "prefix": "263",
-        "rows": 1815,
-        "size_bytes": 854158
+        "rows": 1871,
+        "size_bytes": 880502
       },
       {
         "path": "archive/cases-index/264.ndjson",
         "prefix": "264",
-        "rows": 2465,
-        "size_bytes": 1093942
+        "rows": 2526,
+        "size_bytes": 1120943
       }
     ],
     "cases_index_prefix_length": 3,
-    "cases_index_rows": 339186,
-    "cases_index_size_bytes": 154793919
+    "cases_index_rows": 340212,
+    "cases_index_size_bytes": 155261468
   },
   "court": "King County Superior Court",
   "court_id": "kcsc",
@@ -281,7 +281,7 @@
     "note": "KCSC document-list rows are preserved in canonical case JSON under kcsc.document_rows_deferred; document byte capture is not implemented yet.",
     "table": null
   },
-  "generated_at": "2026-08-16T21:56:09Z",
+  "generated_at": "2026-08-17T00:14:15Z",
   "jurisdiction": "King County, WA",
   "normalization": {
     "archive_dir": "/srv/kcsc-data/archive/cases",
@@ -2010,6 +2010,12 @@
       "/var/lib/kcsc/runs/kcsc-incremental-20260816T194825Z-20231107-20231107/detail-merged/normalized",
       "/var/lib/kcsc/runs/kcsc-incremental-20260816T203730Z-20260218-20260218/detail-merged/normalized",
       "/var/lib/kcsc/runs/kcsc-incremental-20260816T203809Z-20231108-20231108/detail-merged/normalized",
+      "/var/lib/kcsc/runs/kcsc-incremental-20260816T213726Z-20101122-20101122/detail-merged/normalized",
+      "/var/lib/kcsc/runs/kcsc-incremental-20260816T220009Z-20260219-20260219/detail-merged/normalized",
+      "/var/lib/kcsc/runs/kcsc-incremental-20260816T220943Z-20231109-20231109/detail-merged/normalized",
+      "/var/lib/kcsc/runs/kcsc-incremental-20260816T231052Z-20101123-20101123/detail-merged/normalized",
+      "/var/lib/kcsc/runs/kcsc-incremental-20260816T232244Z-20260220-20260220/detail-merged/normalized",
+      "/var/lib/kcsc/runs/kcsc-incremental-20260816T233137Z-20101124-20101124/detail-merged/normalized",
       "/var/lib/kcsc/current-runs/kcsc-incremental-20260730T085614Z-20260704-20260706/detail-merged/normalized",
       "/var/lib/kcsc/current-runs/kcsc-incremental-20260730T122856Z-20260707-20260709/detail-merged/normalized",
       "/var/lib/kcsc/current-runs/kcsc-incremental-20260730T180307Z-20260710-20260712/detail-merged/normalized",
@@ -2028,41 +2034,41 @@
     ],
     "out_dir": "/srv/kcsc-data/data",
     "tables": {
-      "attorneys": 77134,
-      "calendar": 1264663,
-      "cases": 339186,
-      "docket_entries": 1753367,
-      "parties": 127814,
+      "attorneys": 77399,
+      "calendar": 1266674,
+      "cases": 340212,
+      "docket_entries": 1757382,
+      "parties": 128233,
       "payments": 0,
-      "representation": 80107
+      "representation": 80378
     }
   },
   "source": "kcsc_portal",
   "tables": {
     "attorneys": {
       "path": "data/attorneys.parquet",
-      "rows": 77134,
-      "size_bytes": 15239236
+      "rows": 77399,
+      "size_bytes": 15292417
     },
     "calendar": {
       "path": "data/calendar.parquet",
-      "rows": 1264663,
-      "size_bytes": 58235849
+      "rows": 1266674,
+      "size_bytes": 58347853
     },
     "cases": {
       "path": "data/cases.parquet",
-      "rows": 339186,
-      "size_bytes": 26645639
+      "rows": 340212,
+      "size_bytes": 26729580
     },
     "docket_entries": {
       "path": "data/docket_entries.parquet",
-      "rows": 1753367,
-      "size_bytes": 40123667
+      "rows": 1757382,
+      "size_bytes": 40209815
     },
     "parties": {
       "path": "data/parties.parquet",
-      "rows": 127814,
-      "size_bytes": 17924400
+      "rows": 128233,
+      "size_bytes": 17986097
     },
     "payments": {
       "path": "data/payments.parquet",
@@ -2071,8 +2077,8 @@
     },
     "representation": {
       "path": "data/representation.parquet",
-      "rows": 80107,
-      "size_bytes": 15316998
+      "rows": 80378,
+      "size_bytes": 15370587
     }
   }
 }
