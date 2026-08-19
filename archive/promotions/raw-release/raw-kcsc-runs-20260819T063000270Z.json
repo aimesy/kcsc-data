@@ -1,0 +1,25 @@
+{
+  "schema": "kcsc-raw-release-snapshot/v1",
+  "snapshot_id": "raw-kcsc-runs-20260819T063000270Z",
+  "archived_at": "2026-08-19T06:30:08.355Z",
+  "github_repo": "aimesy/kcsc-data",
+  "release_tag": "raw-kcsc-runs-2026-08-19",
+  "source_root": "/var/lib/kcsc",
+  "include_root": "runs",
+  "source_file_count": 2224,
+  "source_bytes_len": 973746163,
+  "compression": "zstd",
+  "archive": {
+    "asset_name": "raw-kcsc-runs-20260819T063000270Z.tar.zst",
+    "bytes_len": 74928772,
+    "sha256": "9014313beb118e5b29d2ac1e3bbe5c46076c6242e99fb92e6040331fde79606c",
+    "url": "https://github.com/aimesy/kcsc-data/releases/download/raw-kcsc-runs-2026-08-19/raw-kcsc-runs-20260819T063000270Z.tar.zst"
+  },
+  "manifest": {
+    "asset_name": "raw-kcsc-runs-20260819T063000270Z.manifest.ndjson.zst",
+    "bytes_len": 90802,
+    "sha256": "2f010ff252c828af52ea3b12ead8728f82b3ed1773c08dc8e82ca1968aaa0e43",
+    "url": "https://github.com/aimesy/kcsc-data/releases/download/raw-kcsc-runs-2026-08-19/raw-kcsc-runs-20260819T063000270Z.manifest.ndjson.zst"
+  },
+  "restore_command": "gh release download raw-kcsc-runs-2026-08-19 --repo aimesy/kcsc-data --pattern raw-kcsc-runs-20260819T063000270Z.tar.zst --dir <destination> && zstd -d <destination>/raw-kcsc-runs-20260819T063000270Z.tar.zst -c | tar -xf - -C <restore-root>"
+}
