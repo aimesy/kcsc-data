@@ -26,3 +26,5 @@ python scripts/build_data_manifest.py --data-root /srv/kcsc-data
 Current generated counts and byte sizes are recorded in `data/manifest.json`.
 `data/documents.parquet` is intentionally not emitted until KCSC document byte
 capture exists.
+
+[T&Cs](DATA-USE-TERMS.md)
