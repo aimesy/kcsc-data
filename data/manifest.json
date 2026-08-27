@@ -391,7 +391,7 @@
     }
   },
   "format": "kcsc-data-manifest-v1",
-  "generated_at": "2026-08-27T16:12:52Z",
+  "generated_at": "2026-08-27T17:01:01Z",
   "jurisdiction": "King County, WA",
   "normalization": {
     "archive_dir": "/srv/kcsc-data/archive/cases",
@@ -2460,8 +2460,23 @@
       ]
     },
     "format": "kcsc-statistics-v1",
-    "generated_at": "2026-08-27T16:12:52Z",
+    "generated_at": "2026-08-27T17:01:01Z",
     "grain": "one canonical case",
+    "ranking_sources": {
+      "attorney_rankings": {
+        "format": "kcsc-attorney-rankings-v1",
+        "path": "data/attorney-practice-rankings.json",
+        "rows": 17784,
+        "size_bytes": 13693972,
+        "topics": 5
+      },
+      "judgment_rankings": {
+        "format": "kcsc-judgment-rankings-v1",
+        "path": "data/judgment-rankings.json",
+        "rows": 11833,
+        "size_bytes": 4528327
+      }
+    },
     "segments": [
       {
         "breakdowns": {
