@@ -1,5 +1,47 @@
 {
-  "attorneys": [],
+  "attorneys": [
+    {
+      "address": null,
+      "attorney_id": "name:3f5771a354385fe3",
+      "bar_number": null,
+      "case_number": "262204667KNT",
+      "contact_block": null,
+      "name": "Poore, David M",
+      "parties_represented": [
+        {
+          "name": "Harris, Sean Brotherton",
+          "party_seq": 1
+        }
+      ],
+      "raw": [
+        {
+          "caseNumber": "26-2-20466-7 KNT",
+          "caseTypeKey": "civil",
+          "name": "Harris, Sean Brotherton",
+          "portalCaseId": "8061551",
+          "rawCells": [
+            "Complaint - filed on 06/25/2026",
+            "Harris, Sean Brotherton",
+            "Poore, David M"
+          ],
+          "rawHeaders": [
+            "Type",
+            "Name",
+            "Represented By"
+          ],
+          "rawLine": "Complaint - filed on 06/25/2026\tHarris, Sean Brotherton\tPoore, David M",
+          "rawTabId": "8061551:participants",
+          "recordId": "8061551:participants:row:1",
+          "representedBy": "Poore, David M",
+          "rowIndex": 1,
+          "section": "Personal Injury - Active",
+          "tabKey": "participants",
+          "type": "Complaint - filed on 06/25/2026"
+        }
+      ],
+      "source": "kcsc.participants"
+    }
+  ],
   "calendar": [
     {
       "calendar_seq": 1,
@@ -40,7 +82,7 @@
       "source": "kcsc.events"
     }
   ],
-  "captured_at": "2026-06-30T16:05:44.256Z",
+  "captured_at": "2026-09-04T13:37:58.281Z",
   "case_number": "262204667KNT",
   "case_title": "CALDWELL VS CHATMAN ET AL",
   "case_type": "civil",
@@ -602,7 +644,7 @@
     "charge_rows": [],
     "date_text": "06/25/2026",
     "detail_error": {},
-    "detail_status": null,
+    "detail_status": "captured",
     "detail_unavailable_reason": null,
     "document_byte_capture": "not_attempted",
     "document_rows_deferred": [
@@ -729,6 +771,72 @@
         "section": "Documents List",
         "subNumber": "2",
         "tabKey": "documents"
+      },
+      {
+        "additionalInformation": "Defendant - FACE CORP",
+        "caseNumber": "26-2-20466-7 KNT",
+        "caseTypeKey": "civil",
+        "dateFiled": "07/21/2026",
+        "documentName": "NTAPR - Notice of Appearance",
+        "filedBy": "3",
+        "portalCaseId": "8061551",
+        "rawCells": [
+          "5",
+          "07/21/2026",
+          "NTAPR - Notice of Appearance",
+          "Defendant - FACE CORP",
+          "3"
+        ],
+        "rawHeaders": [
+          "Sub Number",
+          "Date Filed",
+          "Document Name",
+          "Additional Information",
+          "Filed By",
+          "Page #",
+          "Seal"
+        ],
+        "rawLine": "\t  5\t07/21/2026\tNTAPR - Notice of Appearance\t\tDefendant - FACE CORP\t3\t",
+        "rawTabId": "8061551:documents",
+        "recordId": "8061551:documents:row:5",
+        "rowIndex": 5,
+        "section": "Documents List",
+        "subNumber": "5",
+        "tabKey": "documents"
+      },
+      {
+        "additionalInformation": "TO COMPLAINT",
+        "caseNumber": "26-2-20466-7 KNT",
+        "caseTypeKey": "civil",
+        "dateFiled": "08/05/2026",
+        "documentName": "AADNF - Answer and Affirmative Defense",
+        "filedBy": "Defendant - FACE CORP",
+        "pageCount": "11",
+        "portalCaseId": "8061551",
+        "rawCells": [
+          "6",
+          "08/05/2026",
+          "AADNF - Answer and Affirmative Defense",
+          "TO COMPLAINT",
+          "Defendant - FACE CORP",
+          "11"
+        ],
+        "rawHeaders": [
+          "Sub Number",
+          "Date Filed",
+          "Document Name",
+          "Additional Information",
+          "Filed By",
+          "Page #",
+          "Seal"
+        ],
+        "rawLine": "\t  6\t08/05/2026\tAADNF - Answer and Affirmative Defense\tTO COMPLAINT\tDefendant - FACE CORP\t11\t",
+        "rawTabId": "8061551:documents",
+        "recordId": "8061551:documents:row:6",
+        "rowIndex": 6,
+        "section": "Documents List",
+        "subNumber": "6",
+        "tabKey": "documents"
       }
     ],
     "judgment_rows": [],
@@ -750,10 +858,10 @@
           "Documents List"
         ],
         "label": "Document List",
-        "pageTextLength": 1093,
-        "pageTextSha256": "47966730a4c6611def14be31e840aa0d92ace760b31230b611ee86ddc52919b8",
+        "pageTextLength": 1258,
+        "pageTextSha256": "c4b9002d6a23af21c2e3202931a4195d670b15beaa0171a41eb91177fae953ec",
         "portalCaseId": "8061551",
-        "rawDetailRecordRef": "case-details-combined.ndjson:334",
+        "rawDetailRecordRef": "case-details.ndjson:27",
         "rawTabId": "8061551:documents",
         "tabKey": "documents",
         "tableCount": 5,
@@ -779,7 +887,7 @@
         "pageTextLength": 1781,
         "pageTextSha256": "82456ae95ad6da0ee5ca03f47d664a988a755436f34ef55c85710c77dfad3a12",
         "portalCaseId": "8061551",
-        "rawDetailRecordRef": "case-details-combined.ndjson:334",
+        "rawDetailRecordRef": "case-details.ndjson:27",
         "rawTabId": "8061551:events_docket",
         "tabKey": "events_docket",
         "tableCount": 6,
@@ -803,7 +911,7 @@
         "pageTextLength": 814,
         "pageTextSha256": "5f9ed734a3120a90fc71f10fa905ed150f1f2fe9a701da854be675d56c8f6bf9",
         "portalCaseId": "8061551",
-        "rawDetailRecordRef": "case-details-combined.ndjson:334",
+        "rawDetailRecordRef": "case-details.ndjson:27",
         "rawTabId": "8061551:judgments",
         "tabKey": "judgments",
         "tableCount": 5,
@@ -824,10 +932,10 @@
           "Participants"
         ],
         "label": "Participants",
-        "pageTextLength": 982,
-        "pageTextSha256": "18234cb2d74346191d5b7563fd249dd7f9abed68516d1d97c60de7db17055297",
+        "pageTextLength": 1036,
+        "pageTextSha256": "5cac9515185fc87c0b76551787760cdda6efd88cdcdf7e689a0af84bbc54b142",
         "portalCaseId": "8061551",
-        "rawDetailRecordRef": "case-details-combined.ndjson:334",
+        "rawDetailRecordRef": "case-details.ndjson:27",
         "rawTabId": "8061551:participants",
         "tabKey": "participants",
         "tableCount": 4,
@@ -852,7 +960,7 @@
         "pageTextLength": 933,
         "pageTextSha256": "2e89e7024bae8cf484dca62b7dbf7eacd09ac2548202763fc3fe127d86805835",
         "portalCaseId": "8061551",
-        "rawDetailRecordRef": "case-details-combined.ndjson:334",
+        "rawDetailRecordRef": "case-details.ndjson:27",
         "rawTabId": "8061551:summary",
         "tabKey": "summary",
         "tableCount": 5,
@@ -864,7 +972,9 @@
   },
   "parties": [
     {
-      "attorneys": [],
+      "attorneys": [
+        "Poore, David M"
+      ],
       "case_number": "262204667KNT",
       "name": "Harris, Sean Brotherton",
       "party_address": null,
@@ -879,17 +989,17 @@
         "rawCells": [
           "Complaint - filed on 06/25/2026",
           "Harris, Sean Brotherton",
-          ""
+          "Poore, David M"
         ],
         "rawHeaders": [
           "Type",
           "Name",
           "Represented By"
         ],
-        "rawLine": "Complaint - filed on 06/25/2026\tHarris, Sean Brotherton",
+        "rawLine": "Complaint - filed on 06/25/2026\tHarris, Sean Brotherton\tPoore, David M",
         "rawTabId": "8061551:participants",
         "recordId": "8061551:participants:row:1",
-        "representedBy": "",
+        "representedBy": "Poore, David M",
         "rowIndex": 1,
         "section": "Personal Injury - Active",
         "tabKey": "participants",
@@ -907,16 +1017,20 @@
       "caseTypeText": "2 - Civil",
       "chargeOrCause": "Personal Injury",
       "dateText": "06/25/2026",
-      "detailCapturedAt": "2026-06-30T16:05:44.256Z",
+      "detailCapturedAt": "2026-09-04T13:37:58.281Z",
+      "detailError": {},
+      "detailErrorCapturedAt": "",
       "detailHref": "https://dja-prd-ecexap1.kingcounty.gov/node/411?q=node/420/8061551",
+      "detailStatus": "captured",
+      "detailUnavailableReason": "",
       "discoveredTabCount": 5,
       "filingDate": "06/25/2026",
       "nextHearing": "Trial Date 06/28/2027",
       "pageNum": 1,
       "portalCaseId": "8061551",
       "portalNodeId": "420",
-      "rawDetailRecordRef": "case-details-combined.ndjson:334",
-      "rawSearchRowRef": "search-rows.ndjson:334",
+      "rawDetailRecordRef": "case-details.ndjson:27",
+      "rawSearchRowRef": "search-rows.ndjson:27",
       "searchKey": "civil_06_25_2026",
       "status": "Active 06/25/2026"
     }
@@ -924,5 +1038,5 @@
   "source": "kcsc_portal",
   "source_url": "https://dja-prd-ecexap1.kingcounty.gov/node/411?q=node/420/8061551",
   "status": "Active 06/25/2026",
-  "updated_at": "2026-06-30T16:05:44.256Z"
+  "updated_at": "2026-09-04T13:37:58.281Z"
 }

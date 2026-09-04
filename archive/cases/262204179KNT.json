@@ -1,49 +1,48 @@
 {
-  "attorneys": [
+  "attorneys": [],
+  "calendar": [
     {
-      "address": null,
-      "attorney_id": "name:4e039852e8ece9ea",
-      "bar_number": null,
+      "calendar_seq": 1,
       "case_number": "262204179KNT",
-      "contact_block": null,
-      "name": "Carson, Ryan M",
-      "parties_represented": [
-        {
-          "name": "Li, Gaoyan",
-          "party_seq": 1
-        }
-      ],
-      "raw": [
-        {
-          "caseNumber": "26-2-20417-9 KNT",
-          "caseTypeKey": "civil",
-          "name": "Li, Gaoyan",
-          "portalCaseId": "8060362",
-          "rawCells": [
-            "Complaint - filed on 06/25/2026",
-            "Li, Gaoyan",
-            "Carson, Ryan M"
-          ],
-          "rawHeaders": [
-            "Type",
-            "Name",
-            "Represented By"
-          ],
-          "rawLine": "Complaint - filed on 06/25/2026\tLi, Gaoyan\tCarson, Ryan M",
-          "rawTabId": "8060362:participants",
-          "recordId": "8060362:participants:row:1",
-          "representedBy": "Carson, Ryan M",
-          "rowIndex": 1,
-          "section": "Unlawful Detainer - Active",
-          "tabKey": "participants",
-          "type": "Complaint - filed on 06/25/2026"
-        }
-      ],
-      "source": "kcsc.participants"
+      "court_date": "2026-08-06",
+      "department": null,
+      "hearing_time": "09:00",
+      "hearing_type": "Evictions",
+      "judge": "Courtroom 3B",
+      "location": null,
+      "matters": "SHOW CAUSE",
+      "raw": {
+        "additionalInfo": "SHOW CAUSE",
+        "caseNumber": "26-2-20417-9 KNT",
+        "caseTypeKey": "civil",
+        "dateTime": "08/06/2026 09:00 AM",
+        "official": "Courtroom 3B",
+        "portalCaseId": "8060362",
+        "rawCells": [
+          "08/06/2026 09:00 AM",
+          "Evictions",
+          "SHOW CAUSE",
+          "Courtroom 3B"
+        ],
+        "rawHeaders": [
+          "Date/Time",
+          "Type",
+          "Additional Info",
+          "Official",
+          "Location"
+        ],
+        "rawLine": "\t  08/06/2026 09:00 AM\tEvictions\tSHOW CAUSE\t\tCourtroom 3B",
+        "rawTabId": "8060362:events_docket",
+        "recordId": "8060362:events_docket:row:1",
+        "rowIndex": 1,
+        "section": "Hearings",
+        "tabKey": "events_docket",
+        "type": "Evictions"
+      },
+      "source": "kcsc.events"
     }
   ],
-  "calendar": [],
-  "captured_at": "2026-06-30T16:16:43.264Z",
+  "captured_at": "2026-09-04T13:48:07.293Z",
   "case_number": "262204179KNT",
   "case_title": "KW BRISTOL AT SOUTHPORT LLC VS BAITY",
   "case_type": "civil",
@@ -64,7 +63,7 @@
     "charge_rows": [],
     "date_text": "06/25/2026",
     "detail_error": {},
-    "detail_status": null,
+    "detail_status": "captured",
     "detail_unavailable_reason": null,
     "document_byte_capture": "not_attempted",
     "document_rows_deferred": [
@@ -223,16 +222,18 @@
         "tabKey": "documents"
       },
       {
-        "additionalInformation": "3",
+        "additionalInformation": "Defendant - AARON BAITY",
         "caseNumber": "26-2-20417-9 KNT",
         "caseTypeKey": "civil",
         "dateFiled": "06/29/2026",
-        "documentName": "NTAPR - Notice of Appearance",
+        "documentName": "APPS - Appearance Pro Se",
+        "filedBy": "3",
         "portalCaseId": "8060362",
         "rawCells": [
           "6",
           "06/29/2026",
-          "NTAPR - Notice of Appearance",
+          "APPS - Appearance Pro Se",
+          "Defendant - AARON BAITY",
           "3"
         ],
         "rawHeaders": [
@@ -244,7 +245,7 @@
           "Page #",
           "Seal"
         ],
-        "rawLine": "\t  6\t06/29/2026\tNTAPR - Notice of Appearance\t\t\t3\t",
+        "rawLine": "\t  6\t06/29/2026\tAPPS - Appearance Pro Se\t\tDefendant - AARON BAITY\t3\t",
         "rawTabId": "8060362:documents",
         "recordId": "8060362:documents:row:6",
         "rowIndex": 6,
@@ -287,12 +288,12 @@
         "caseNumber": "26-2-20417-9 KNT",
         "caseTypeKey": "civil",
         "dateFiled": "06/29/2026",
-        "documentName": "OTHER - Other",
+        "documentName": "CRTC - Certificate of Compliance",
         "portalCaseId": "8060362",
         "rawCells": [
           "8",
           "06/29/2026",
-          "OTHER - Other",
+          "CRTC - Certificate of Compliance",
           "2"
         ],
         "rawHeaders": [
@@ -304,7 +305,7 @@
           "Page #",
           "Seal"
         ],
-        "rawLine": "\t  8\t06/29/2026\tOTHER - Other\t\t\t2\t",
+        "rawLine": "\t  8\t06/29/2026\tCRTC - Certificate of Compliance\t\t\t2\t",
         "rawTabId": "8060362:documents",
         "recordId": "8060362:documents:row:8",
         "rowIndex": 8,
@@ -313,16 +314,20 @@
         "tabKey": "documents"
       },
       {
-        "additionalInformation": "3",
+        "additionalInformation": "LEDGER",
         "caseNumber": "26-2-20417-9 KNT",
         "caseTypeKey": "civil",
         "dateFiled": "06/29/2026",
-        "documentName": "OTHER - Other",
+        "documentName": "AT - Attachment",
+        "filedBy": "Plaintiff - KW BRISTOL AT SOUTHPORT LLC",
+        "pageCount": "3",
         "portalCaseId": "8060362",
         "rawCells": [
           "9",
           "06/29/2026",
-          "OTHER - Other",
+          "AT - Attachment",
+          "LEDGER",
+          "Plaintiff - KW BRISTOL AT SOUTHPORT LLC",
           "3"
         ],
         "rawHeaders": [
@@ -334,7 +339,7 @@
           "Page #",
           "Seal"
         ],
-        "rawLine": "\t  9\t06/29/2026\tOTHER - Other\t\t\t3\t",
+        "rawLine": "\t  9\t06/29/2026\tAT - Attachment\tLEDGER\tPlaintiff - KW BRISTOL AT SOUTHPORT LLC\t3\t",
         "rawTabId": "8060362:documents",
         "recordId": "8060362:documents:row:9",
         "rowIndex": 9,
@@ -343,16 +348,20 @@
         "tabKey": "documents"
       },
       {
-        "additionalInformation": "16",
+        "additionalInformation": "LEASE",
         "caseNumber": "26-2-20417-9 KNT",
         "caseTypeKey": "civil",
         "dateFiled": "06/29/2026",
-        "documentName": "OTHER - Other",
+        "documentName": "AT - Attachment",
+        "filedBy": "Plaintiff - KW BRISTOL AT SOUTHPORT LLC",
+        "pageCount": "16",
         "portalCaseId": "8060362",
         "rawCells": [
           "10",
           "06/29/2026",
-          "OTHER - Other",
+          "AT - Attachment",
+          "LEASE",
+          "Plaintiff - KW BRISTOL AT SOUTHPORT LLC",
           "16"
         ],
         "rawHeaders": [
@@ -364,7 +373,7 @@
           "Page #",
           "Seal"
         ],
-        "rawLine": "\t  10\t06/29/2026\tOTHER - Other\t\t\t16\t",
+        "rawLine": "\t  10\t06/29/2026\tAT - Attachment\tLEASE\tPlaintiff - KW BRISTOL AT SOUTHPORT LLC\t16\t",
         "rawTabId": "8060362:documents",
         "recordId": "8060362:documents:row:10",
         "rowIndex": 10,
@@ -373,16 +382,18 @@
         "tabKey": "documents"
       },
       {
-        "additionalInformation": "1",
+        "additionalInformation": "Plaintiff - KW BRISTOL AT SOUTHPORT LLC",
         "caseNumber": "26-2-20417-9 KNT",
         "caseTypeKey": "civil",
         "dateFiled": "06/29/2026",
         "documentName": "MTSC - Motion for Order to Show Cause",
+        "filedBy": "1",
         "portalCaseId": "8060362",
         "rawCells": [
           "11",
           "06/29/2026",
           "MTSC - Motion for Order to Show Cause",
+          "Plaintiff - KW BRISTOL AT SOUTHPORT LLC",
           "1"
         ],
         "rawHeaders": [
@@ -394,12 +405,168 @@
           "Page #",
           "Seal"
         ],
-        "rawLine": "\t  11\t06/29/2026\tMTSC - Motion for Order to Show Cause\t\t\t1\t",
+        "rawLine": "\t  11\t06/29/2026\tMTSC - Motion for Order to Show Cause\t\tPlaintiff - KW BRISTOL AT SOUTHPORT LLC\t1\t",
         "rawTabId": "8060362:documents",
         "recordId": "8060362:documents:row:11",
         "rowIndex": 11,
         "section": "Documents List",
         "subNumber": "11",
+        "tabKey": "documents"
+      },
+      {
+        "additionalInformation": "4",
+        "caseNumber": "26-2-20417-9 KNT",
+        "caseTypeKey": "civil",
+        "dateFiled": "07/02/2026",
+        "documentName": "NTHG - Notice of Hearing",
+        "portalCaseId": "8060362",
+        "rawCells": [
+          "12",
+          "07/02/2026",
+          "NTHG - Notice of Hearing",
+          "4"
+        ],
+        "rawHeaders": [
+          "Sub Number",
+          "Date Filed",
+          "Document Name",
+          "Additional Information",
+          "Filed By",
+          "Page #",
+          "Seal"
+        ],
+        "rawLine": "\t  12\t07/02/2026\tNTHG - Notice of Hearing\t\t\t4\t",
+        "rawTabId": "8060362:documents",
+        "recordId": "8060362:documents:row:12",
+        "rowIndex": 12,
+        "section": "Documents List",
+        "subNumber": "12",
+        "tabKey": "documents"
+      },
+      {
+        "additionalInformation": "2",
+        "caseNumber": "26-2-20417-9 KNT",
+        "caseTypeKey": "civil",
+        "dateFiled": "07/02/2026",
+        "documentName": "ORTSC - Order to Show Cause",
+        "portalCaseId": "8060362",
+        "rawCells": [
+          "13",
+          "07/02/2026",
+          "ORTSC - Order to Show Cause",
+          "2"
+        ],
+        "rawHeaders": [
+          "Sub Number",
+          "Date Filed",
+          "Document Name",
+          "Additional Information",
+          "Filed By",
+          "Page #",
+          "Seal"
+        ],
+        "rawLine": "\t  13\t07/02/2026\tORTSC - Order to Show Cause\t\t\t2\t",
+        "rawTabId": "8060362:documents",
+        "recordId": "8060362:documents:row:13",
+        "rowIndex": 13,
+        "section": "Documents List",
+        "subNumber": "13",
+        "tabKey": "documents"
+      },
+      {
+        "additionalInformation": "Plaintiff - KW BRISTOL AT SOUTHPORT LLC",
+        "caseNumber": "26-2-20417-9 KNT",
+        "caseTypeKey": "civil",
+        "dateFiled": "07/13/2026",
+        "documentName": "MTDSM - Motion to Dismiss",
+        "filedBy": "1",
+        "portalCaseId": "8060362",
+        "rawCells": [
+          "14",
+          "07/13/2026",
+          "MTDSM - Motion to Dismiss",
+          "Plaintiff - KW BRISTOL AT SOUTHPORT LLC",
+          "1"
+        ],
+        "rawHeaders": [
+          "Sub Number",
+          "Date Filed",
+          "Document Name",
+          "Additional Information",
+          "Filed By",
+          "Page #",
+          "Seal"
+        ],
+        "rawLine": "\t  14\t07/13/2026\tMTDSM - Motion to Dismiss\t\tPlaintiff - KW BRISTOL AT SOUTHPORT LLC\t1\t",
+        "rawTabId": "8060362:documents",
+        "recordId": "8060362:documents:row:14",
+        "rowIndex": 14,
+        "section": "Documents List",
+        "subNumber": "14",
+        "tabKey": "documents"
+      },
+      {
+        "additionalInformation": "OF COMPLETION OF REPRESENTATION",
+        "caseNumber": "26-2-20417-9 KNT",
+        "caseTypeKey": "civil",
+        "dateFiled": "07/13/2026",
+        "documentName": "NT - Notice",
+        "filedBy": "Plaintiff - KW BRISTOL AT SOUTHPORT LLC",
+        "pageCount": "1",
+        "portalCaseId": "8060362",
+        "rawCells": [
+          "15",
+          "07/13/2026",
+          "NT - Notice",
+          "OF COMPLETION OF REPRESENTATION",
+          "Plaintiff - KW BRISTOL AT SOUTHPORT LLC",
+          "1"
+        ],
+        "rawHeaders": [
+          "Sub Number",
+          "Date Filed",
+          "Document Name",
+          "Additional Information",
+          "Filed By",
+          "Page #",
+          "Seal"
+        ],
+        "rawLine": "\t  15\t07/13/2026\tNT - Notice\tOF COMPLETION OF REPRESENTATION\tPlaintiff - KW BRISTOL AT SOUTHPORT LLC\t1\t",
+        "rawTabId": "8060362:documents",
+        "recordId": "8060362:documents:row:15",
+        "rowIndex": 15,
+        "section": "Documents List",
+        "subNumber": "15",
+        "tabKey": "documents"
+      },
+      {
+        "additionalInformation": "2",
+        "caseNumber": "26-2-20417-9 KNT",
+        "caseTypeKey": "civil",
+        "dateFiled": "07/14/2026",
+        "documentName": "ORNS - Order for Voluntary Non-Suit",
+        "portalCaseId": "8060362",
+        "rawCells": [
+          "16",
+          "07/14/2026",
+          "ORNS - Order for Voluntary Non-Suit",
+          "2"
+        ],
+        "rawHeaders": [
+          "Sub Number",
+          "Date Filed",
+          "Document Name",
+          "Additional Information",
+          "Filed By",
+          "Page #",
+          "Seal"
+        ],
+        "rawLine": "\t  16\t07/14/2026\tORNS - Order for Voluntary Non-Suit\t\t\t2\t",
+        "rawTabId": "8060362:documents",
+        "recordId": "8060362:documents:row:16",
+        "rowIndex": 16,
+        "section": "Documents List",
+        "subNumber": "16",
         "tabKey": "documents"
       }
     ],
@@ -422,10 +589,10 @@
           "Documents List"
         ],
         "label": "Document List",
-        "pageTextLength": 1489,
-        "pageTextSha256": "f980d0b44dbfdd3668656cba45c9f187528d528e2e11b5b0b1e0a0038b84a70c",
+        "pageTextLength": 2021,
+        "pageTextSha256": "27d87f9280e8225de62a6834aa87b75a3c046c058f7c8f133cdede283e1f0078",
         "portalCaseId": "8060362",
-        "rawDetailRecordRef": "case-details-combined.ndjson:383",
+        "rawDetailRecordRef": "case-details.ndjson:76",
         "rawTabId": "8060362:documents",
         "tabKey": "documents",
         "tableCount": 5,
@@ -443,16 +610,17 @@
           "User Menu",
           "Case Data",
           "Events",
+          "Hearings",
           "Time Standards"
         ],
         "label": "Events",
-        "pageTextLength": 771,
-        "pageTextSha256": "e67d104c3124fa8c8137b3d87302181b067a2c44da8c71ab13a4cf3e08297913",
+        "pageTextLength": 905,
+        "pageTextSha256": "ae5fbeab608abf3576cf59c3ff44414b4adbd491c3a3a5fe602eecf94978498c",
         "portalCaseId": "8060362",
-        "rawDetailRecordRef": "case-details-combined.ndjson:383",
+        "rawDetailRecordRef": "case-details.ndjson:76",
         "rawTabId": "8060362:events_docket",
         "tabKey": "events_docket",
-        "tableCount": 4,
+        "tableCount": 5,
         "title": "Case Data | King County Superior Court Clerk's Office",
         "url": "https://dja-prd-ecexap1.kingcounty.gov/node/420?Id=8060362&folder=FV-Public-Case-Events-Portal"
       },
@@ -470,10 +638,10 @@
           "Judgments"
         ],
         "label": "Judgments",
-        "pageTextLength": 827,
-        "pageTextSha256": "755415cbaf19a6938343d2a459e2979a052d7751c1d4e88127701da336083db7",
+        "pageTextLength": 843,
+        "pageTextSha256": "02be6b4b9bc1dac005044d8bcb7e2497c616c4dd5fd6a51a43b8db834073fab5",
         "portalCaseId": "8060362",
-        "rawDetailRecordRef": "case-details-combined.ndjson:383",
+        "rawDetailRecordRef": "case-details.ndjson:76",
         "rawTabId": "8060362:judgments",
         "tabKey": "judgments",
         "tableCount": 5,
@@ -494,10 +662,10 @@
           "Participants"
         ],
         "label": "Participants",
-        "pageTextLength": 1000,
-        "pageTextSha256": "226db663ce128cc7de93015f2956adb0589f9b58ec348ea3edbae903036de035",
+        "pageTextLength": 925,
+        "pageTextSha256": "ff9a8c3147a5f13fc50518433a8ec27c5d1efcc1a7f2406a08dd5a1f588450cb",
         "portalCaseId": "8060362",
-        "rawDetailRecordRef": "case-details-combined.ndjson:383",
+        "rawDetailRecordRef": "case-details.ndjson:76",
         "rawTabId": "8060362:participants",
         "tabKey": "participants",
         "tableCount": 4,
@@ -519,10 +687,10 @@
           "SubCase Filings"
         ],
         "label": "Summary",
-        "pageTextLength": 948,
-        "pageTextSha256": "33e5c8c45328dc37fb94f9b4bcd3a51dd63e555f90ca9fba197dc95b94b4e829",
+        "pageTextLength": 994,
+        "pageTextSha256": "f85c18a000c1ac9dd4512e5381a8e28452116583f1886a2109c3d65fe7dc615a",
         "portalCaseId": "8060362",
-        "rawDetailRecordRef": "case-details-combined.ndjson:383",
+        "rawDetailRecordRef": "case-details.ndjson:76",
         "rawTabId": "8060362:summary",
         "tabKey": "summary",
         "tableCount": 5,
@@ -530,80 +698,9 @@
         "url": "https://dja-prd-ecexap1.kingcounty.gov/node/420?Id=8060362&folder=FV-Public-Case-Summary-Portal"
       }
     ],
-    "source_status": "Active 06/25/2026"
+    "source_status": "Completed 07/14/2026"
   },
-  "parties": [
-    {
-      "attorneys": [
-        "Carson, Ryan M"
-      ],
-      "case_number": "262204179KNT",
-      "name": "Li, Gaoyan",
-      "party_address": null,
-      "party_id": "262204179KNT:party:1",
-      "party_seq": 1,
-      "party_type": "Complaint - filed on 06/25/2026",
-      "raw": {
-        "caseNumber": "26-2-20417-9 KNT",
-        "caseTypeKey": "civil",
-        "name": "Li, Gaoyan",
-        "portalCaseId": "8060362",
-        "rawCells": [
-          "Complaint - filed on 06/25/2026",
-          "Li, Gaoyan",
-          "Carson, Ryan M"
-        ],
-        "rawHeaders": [
-          "Type",
-          "Name",
-          "Represented By"
-        ],
-        "rawLine": "Complaint - filed on 06/25/2026\tLi, Gaoyan\tCarson, Ryan M",
-        "rawTabId": "8060362:participants",
-        "recordId": "8060362:participants:row:1",
-        "representedBy": "Carson, Ryan M",
-        "rowIndex": 1,
-        "section": "Unlawful Detainer - Active",
-        "tabKey": "participants",
-        "type": "Complaint - filed on 06/25/2026"
-      },
-      "source": "kcsc.participants"
-    },
-    {
-      "attorneys": [],
-      "case_number": "262204179KNT",
-      "name": "Redford, Randall W.",
-      "party_address": null,
-      "party_id": "262204179KNT:party:2",
-      "party_seq": 2,
-      "party_type": "Morningstar, Thomas Martin",
-      "raw": {
-        "caseNumber": "26-2-20417-9 KNT",
-        "caseTypeKey": "civil",
-        "name": "Redford, Randall W.",
-        "portalCaseId": "8060362",
-        "rawCells": [
-          "Morningstar, Thomas Martin",
-          "Redford, Randall W.",
-          ""
-        ],
-        "rawHeaders": [
-          "Type",
-          "Name",
-          "Represented By"
-        ],
-        "rawLine": "Morningstar, Thomas Martin\tRedford, Randall W.",
-        "rawTabId": "8060362:participants",
-        "recordId": "8060362:participants:row:2",
-        "representedBy": "",
-        "rowIndex": 2,
-        "section": "Unlawful Detainer - Active",
-        "tabKey": "participants",
-        "type": "Morningstar, Thomas Martin"
-      },
-      "source": "kcsc.participants"
-    }
-  ],
+  "parties": [],
   "payments": [],
   "raw": {
     "case": {
@@ -613,22 +710,26 @@
       "caseTypeText": "2 - Civil",
       "chargeOrCause": "Unlawful Detainer",
       "dateText": "06/25/2026",
-      "detailCapturedAt": "2026-06-30T16:16:43.264Z",
+      "detailCapturedAt": "2026-09-04T13:48:07.293Z",
+      "detailError": {},
+      "detailErrorCapturedAt": "",
       "detailHref": "https://dja-prd-ecexap1.kingcounty.gov/node/411?q=node/420/8060362",
+      "detailStatus": "captured",
+      "detailUnavailableReason": "",
       "discoveredTabCount": 5,
       "filingDate": "06/25/2026",
       "nextHearing": "",
       "pageNum": 1,
       "portalCaseId": "8060362",
       "portalNodeId": "420",
-      "rawDetailRecordRef": "case-details-combined.ndjson:383",
-      "rawSearchRowRef": "search-rows.ndjson:383",
+      "rawDetailRecordRef": "case-details.ndjson:76",
+      "rawSearchRowRef": "search-rows.ndjson:76",
       "searchKey": "civil_06_25_2026",
-      "status": "Active 06/25/2026"
+      "status": "Completed 07/14/2026"
     }
   },
   "source": "kcsc_portal",
   "source_url": "https://dja-prd-ecexap1.kingcounty.gov/node/411?q=node/420/8060362",
-  "status": "Active 06/25/2026",
-  "updated_at": "2026-06-30T16:16:43.264Z"
+  "status": "Completed 07/14/2026",
+  "updated_at": "2026-09-04T13:48:07.293Z"
 }
