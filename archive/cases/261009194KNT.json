@@ -2,11 +2,52 @@
   "attorneys": [
     {
       "address": null,
-      "attorney_id": "name:a7df1e69b17de992",
+      "attorney_id": "name:81a6d6bd1176fb71",
       "bar_number": null,
       "case_number": "261009194KNT",
       "contact_block": null,
-      "name": "Plaintiff",
+      "name": "KING COUNTY, PROSECUTING ATTY",
+      "parties_represented": [
+        {
+          "name": "STATE OF WASHINGTON",
+          "party_seq": 2
+        }
+      ],
+      "raw": [
+        {
+          "caseNumber": "26-1-00919-4 KNT",
+          "caseTypeKey": "criminal",
+          "name": "STATE OF WASHINGTON",
+          "portalCaseId": "8051859",
+          "rawCells": [
+            "Plaintiff",
+            "STATE OF WASHINGTON",
+            "KING COUNTY, PROSECUTING ATTY"
+          ],
+          "rawHeaders": [
+            "Type",
+            "Name",
+            "Represented By"
+          ],
+          "rawLine": "Plaintiff\tSTATE OF WASHINGTON\tKING COUNTY, PROSECUTING ATTY",
+          "rawTabId": "8051859:participants",
+          "recordId": "8051859:participants:row:2",
+          "representedBy": "KING COUNTY, PROSECUTING ATTY",
+          "rowIndex": 2,
+          "section": "Criminal - Warrant",
+          "tabKey": "participants",
+          "type": "Plaintiff"
+        }
+      ],
+      "source": "kcsc.participants"
+    },
+    {
+      "address": null,
+      "attorney_id": "name:4e60993aa9fd539a",
+      "bar_number": null,
+      "case_number": "261009194KNT",
+      "contact_block": null,
+      "name": "Nava, Gabrielle Frances",
       "parties_represented": [
         {
           "name": "JIMENEZ HERNANDEZ, DENIS EDUAY",
@@ -22,17 +63,17 @@
           "rawCells": [
             "Defendant",
             "JIMENEZ HERNANDEZ, DENIS EDUAY",
-            "Plaintiff"
+            "Nava, Gabrielle Frances"
           ],
           "rawHeaders": [
             "Type",
             "Name",
             "Represented By"
           ],
-          "rawLine": "Defendant\tJIMENEZ HERNANDEZ, DENIS EDUAY\tPlaintiff",
+          "rawLine": "Defendant\tJIMENEZ HERNANDEZ, DENIS EDUAY\tNava, Gabrielle Frances",
           "rawTabId": "8051859:participants",
           "recordId": "8051859:participants:row:1",
-          "representedBy": "Plaintiff",
+          "representedBy": "Nava, Gabrielle Frances",
           "rowIndex": 1,
           "section": "Criminal - Warrant",
           "tabKey": "participants",
@@ -46,10 +87,48 @@
     {
       "calendar_seq": 1,
       "case_number": "261009194KNT",
-      "court_date": "2026-07-08",
+      "court_date": "2026-09-21",
       "department": null,
       "hearing_time": "09:00",
       "hearing_type": "Arraignment Hearing",
+      "judge": "Courtroom GA",
+      "location": null,
+      "matters": "Courtroom GA",
+      "raw": {
+        "additionalInfo": "Courtroom GA",
+        "caseNumber": "26-1-00919-4 KNT",
+        "caseTypeKey": "criminal",
+        "dateTime": "09/21/2026 09:00 AM",
+        "portalCaseId": "8051859",
+        "rawCells": [
+          "09/21/2026 09:00 AM",
+          "Arraignment Hearing",
+          "Courtroom GA"
+        ],
+        "rawHeaders": [
+          "Date/Time",
+          "Type",
+          "Additional Info",
+          "Official",
+          "Location"
+        ],
+        "rawLine": "\t  09/21/2026 09:00 AM\tArraignment Hearing\t\t\tCourtroom GA",
+        "rawTabId": "8051859:events_docket",
+        "recordId": "8051859:events_docket:row:1",
+        "rowIndex": 1,
+        "section": "Hearings",
+        "tabKey": "events_docket",
+        "type": "Arraignment Hearing"
+      },
+      "source": "kcsc.events"
+    },
+    {
+      "calendar_seq": 2,
+      "case_number": "261009194KNT",
+      "court_date": "2026-07-08",
+      "department": null,
+      "hearing_time": "09:00",
+      "hearing_type": "Arraignment Hearing - MTHRG",
       "judge": "Courtroom GA",
       "location": null,
       "matters": "Courtroom GA",
@@ -61,7 +140,7 @@
         "portalCaseId": "8051859",
         "rawCells": [
           "07/08/2026 09:00 AM",
-          "Arraignment Hearing",
+          "Arraignment Hearing - MTHRG",
           "Courtroom GA"
         ],
         "rawHeaders": [
@@ -71,18 +150,18 @@
           "Official",
           "Location"
         ],
-        "rawLine": "\t  07/08/2026 09:00 AM\tArraignment Hearing\t\t\tCourtroom GA",
+        "rawLine": "\t  07/08/2026 09:00 AM\tArraignment Hearing - MTHRG\t\t\tCourtroom GA",
         "rawTabId": "8051859:events_docket",
-        "recordId": "8051859:events_docket:row:1",
-        "rowIndex": 1,
+        "recordId": "8051859:events_docket:row:2",
+        "rowIndex": 2,
         "section": "Hearings",
         "tabKey": "events_docket",
-        "type": "Arraignment Hearing"
+        "type": "Arraignment Hearing - MTHRG"
       },
       "source": "kcsc.events"
     }
   ],
-  "captured_at": "2026-06-30T16:58:46.178Z",
+  "captured_at": "2026-09-04T11:19:47.654Z",
   "case_number": "261009194KNT",
   "case_title": "STATE OF WASHINGTON VS JIMENEZ HERNANDEZ, DENIS EDUAY",
   "case_type": "criminal",
@@ -144,7 +223,7 @@
     ],
     "date_text": "06/24/2026",
     "detail_error": {},
-    "detail_status": null,
+    "detail_status": "captured",
     "detail_unavailable_reason": null,
     "document_byte_capture": "not_attempted",
     "document_rows_deferred": [
@@ -237,10 +316,164 @@
         "section": "Documents List",
         "subNumber": "3",
         "tabKey": "documents"
+      },
+      {
+        "additionalInformation": "1",
+        "caseNumber": "26-1-00919-4 KNT",
+        "caseTypeKey": "criminal",
+        "dateFiled": "07/08/2026",
+        "documentName": "MINS - Minutes Motion hearing",
+        "portalCaseId": "8051859",
+        "rawCells": [
+          "4",
+          "07/08/2026",
+          "MINS - Minutes Motion hearing",
+          "1"
+        ],
+        "rawHeaders": [
+          "Sub Number",
+          "Date Filed",
+          "Document Name",
+          "Additional Information",
+          "Filed By",
+          "Page #",
+          "Seal"
+        ],
+        "rawLine": "\t  4\t07/08/2026\tMINS - Minutes Motion hearing\t\t\t1\t",
+        "rawTabId": "8051859:documents",
+        "recordId": "8051859:documents:row:4",
+        "rowIndex": 4,
+        "section": "Documents List",
+        "subNumber": "4",
+        "tabKey": "documents"
+      },
+      {
+        "additionalInformation": "Defendant - DENIS EDUAY JIMENEZ HERNANDEZ",
+        "caseNumber": "26-1-00919-4 KNT",
+        "caseTypeKey": "criminal",
+        "dateFiled": "08/06/2026",
+        "documentName": "NTARD - Notice of Appearance and Request for Discovery",
+        "filedBy": "10",
+        "portalCaseId": "8051859",
+        "rawCells": [
+          "5",
+          "08/06/2026",
+          "NTARD - Notice of Appearance and Request for Discovery",
+          "Defendant - DENIS EDUAY JIMENEZ HERNANDEZ",
+          "10"
+        ],
+        "rawHeaders": [
+          "Sub Number",
+          "Date Filed",
+          "Document Name",
+          "Additional Information",
+          "Filed By",
+          "Page #",
+          "Seal"
+        ],
+        "rawLine": "\t  5\t08/06/2026\tNTARD - Notice of Appearance and Request for Discovery\t\tDefendant - DENIS EDUAY JIMENEZ HERNANDEZ\t10\t",
+        "rawTabId": "8051859:documents",
+        "recordId": "8051859:documents:row:5",
+        "rowIndex": 5,
+        "section": "Documents List",
+        "subNumber": "5",
+        "tabKey": "documents"
+      },
+      {
+        "additionalInformation": "2",
+        "caseNumber": "26-1-00919-4 KNT",
+        "caseTypeKey": "criminal",
+        "dateFiled": "08/06/2026",
+        "documentName": "CRTAP - Certification of Appointed Counsel",
+        "portalCaseId": "8051859",
+        "rawCells": [
+          "6",
+          "08/06/2026",
+          "CRTAP - Certification of Appointed Counsel",
+          "2"
+        ],
+        "rawHeaders": [
+          "Sub Number",
+          "Date Filed",
+          "Document Name",
+          "Additional Information",
+          "Filed By",
+          "Page #",
+          "Seal"
+        ],
+        "rawLine": "\t  6\t08/06/2026\tCRTAP - Certification of Appointed Counsel\t\t\t2\t",
+        "rawTabId": "8051859:documents",
+        "recordId": "8051859:documents:row:6",
+        "rowIndex": 6,
+        "section": "Documents List",
+        "subNumber": "6",
+        "tabKey": "documents"
+      },
+      {
+        "additionalInformation": "Clerk",
+        "caseNumber": "26-1-00919-4 KNT",
+        "caseTypeKey": "criminal",
+        "dateFiled": "08/06/2026",
+        "documentName": "AFSRES - Affidavit / Declaration / Certificate of eService",
+        "filedBy": "2",
+        "portalCaseId": "8051859",
+        "rawCells": [
+          "7",
+          "08/06/2026",
+          "AFSRES - Affidavit / Declaration / Certificate of eService",
+          "Clerk",
+          "2"
+        ],
+        "rawHeaders": [
+          "Sub Number",
+          "Date Filed",
+          "Document Name",
+          "Additional Information",
+          "Filed By",
+          "Page #",
+          "Seal"
+        ],
+        "rawLine": "\t  7\t08/06/2026\tAFSRES - Affidavit / Declaration / Certificate of eService\t\tClerk\t2\t",
+        "rawTabId": "8051859:documents",
+        "recordId": "8051859:documents:row:7",
+        "rowIndex": 7,
+        "section": "Documents List",
+        "subNumber": "7",
+        "tabKey": "documents"
+      },
+      {
+        "additionalInformation": "1",
+        "caseNumber": "26-1-00919-4 KNT",
+        "caseTypeKey": "criminal",
+        "dateFiled": "08/31/2026",
+        "documentName": "NTA - Notice of Arraignment",
+        "portalCaseId": "8051859",
+        "rawCells": [
+          "8",
+          "08/31/2026",
+          "NTA - Notice of Arraignment",
+          "1"
+        ],
+        "rawHeaders": [
+          "Sub Number",
+          "Date Filed",
+          "Document Name",
+          "Additional Information",
+          "Filed By",
+          "Page #",
+          "Seal"
+        ],
+        "rawLine": "\t  8\t08/31/2026\tNTA - Notice of Arraignment\t\t\t1\t",
+        "rawTabId": "8051859:documents",
+        "recordId": "8051859:documents:row:8",
+        "rowIndex": 8,
+        "section": "Documents List",
+        "subNumber": "8",
+        "tabKey": "documents"
       }
     ],
     "judgment_rows": [],
-    "next_hearing": "Arraignment Hearing 07/08/2026",
+    "next_hearing": "Arraignment Hearing 09/21/2026",
     "portal_case_id": "8051859",
     "portal_node_id": "405",
     "raw_tab_summaries": [
@@ -261,7 +494,7 @@
         "pageTextLength": 947,
         "pageTextSha256": "26542a5ce6bced5af943fb69ffb0d169fda31eb929ae89707d378510cdef5301",
         "portalCaseId": "8051859",
-        "rawDetailRecordRef": "case-details-combined.ndjson:573",
+        "rawDetailRecordRef": "case-details.ndjson:150",
         "rawTabId": "8051859:charges",
         "tabKey": "charges",
         "tableCount": 4,
@@ -282,10 +515,10 @@
           "Documents List"
         ],
         "label": "Document List",
-        "pageTextLength": 1000,
-        "pageTextSha256": "6447311b0df278c1ebbc63b027ac31c928cfeab4bdaca98573484721653e2895",
+        "pageTextLength": 1367,
+        "pageTextSha256": "e020ab8b491ef071f2f2e002a5f8ecb459694cdc285314b2b977c61b50a3773b",
         "portalCaseId": "8051859",
-        "rawDetailRecordRef": "case-details-combined.ndjson:573",
+        "rawDetailRecordRef": "case-details.ndjson:150",
         "rawTabId": "8051859:documents",
         "tabKey": "documents",
         "tableCount": 5,
@@ -306,10 +539,10 @@
           "Hearings"
         ],
         "label": "Events",
-        "pageTextLength": 882,
-        "pageTextSha256": "1f675c8791e603be7df8ae0e9107fc95f874d4fb539b309d2833e8a40f7f519f",
+        "pageTextLength": 948,
+        "pageTextSha256": "8e0de21f8d3ab113016b5c67660d98085d01faa06e89de3541b9880052d7a5d1",
         "portalCaseId": "8051859",
-        "rawDetailRecordRef": "case-details-combined.ndjson:573",
+        "rawDetailRecordRef": "case-details.ndjson:150",
         "rawTabId": "8051859:events_docket",
         "tabKey": "events_docket",
         "tableCount": 4,
@@ -334,7 +567,7 @@
         "pageTextLength": 933,
         "pageTextSha256": "f1e2e624d9a67c619e6850c04418ef8cfd7b3c06cff54fbe34d22edcbf68ba3d",
         "portalCaseId": "8051859",
-        "rawDetailRecordRef": "case-details-combined.ndjson:573",
+        "rawDetailRecordRef": "case-details.ndjson:150",
         "rawTabId": "8051859:judgments",
         "tabKey": "judgments",
         "tableCount": 6,
@@ -355,10 +588,10 @@
           "Participants"
         ],
         "label": "Participants",
-        "pageTextLength": 927,
-        "pageTextSha256": "c143e8030709e780673eb2634c87fc457ba0f57fe924932ef47bd5789ab7edd4",
+        "pageTextLength": 952,
+        "pageTextSha256": "2f2aed2d650c56727a3f3ada7de7910fa21e5a00f06d912c7a8eb099454cdadf",
         "portalCaseId": "8051859",
-        "rawDetailRecordRef": "case-details-combined.ndjson:573",
+        "rawDetailRecordRef": "case-details.ndjson:150",
         "rawTabId": "8051859:participants",
         "tabKey": "participants",
         "tableCount": 4,
@@ -382,7 +615,7 @@
         "pageTextLength": 856,
         "pageTextSha256": "a870ab669c965d6c5712d85d79cce94cfef20c43eac8d327de0c1c1f0335b38b",
         "portalCaseId": "8051859",
-        "rawDetailRecordRef": "case-details-combined.ndjson:573",
+        "rawDetailRecordRef": "case-details.ndjson:150",
         "rawTabId": "8051859:summary",
         "tabKey": "summary",
         "tableCount": 4,
@@ -395,7 +628,7 @@
   "parties": [
     {
       "attorneys": [
-        "Plaintiff"
+        "Nava, Gabrielle Frances"
       ],
       "case_number": "261009194KNT",
       "name": "JIMENEZ HERNANDEZ, DENIS EDUAY",
@@ -411,17 +644,17 @@
         "rawCells": [
           "Defendant",
           "JIMENEZ HERNANDEZ, DENIS EDUAY",
-          "Plaintiff"
+          "Nava, Gabrielle Frances"
         ],
         "rawHeaders": [
           "Type",
           "Name",
           "Represented By"
         ],
-        "rawLine": "Defendant\tJIMENEZ HERNANDEZ, DENIS EDUAY\tPlaintiff",
+        "rawLine": "Defendant\tJIMENEZ HERNANDEZ, DENIS EDUAY\tNava, Gabrielle Frances",
         "rawTabId": "8051859:participants",
         "recordId": "8051859:participants:row:1",
-        "representedBy": "Plaintiff",
+        "representedBy": "Nava, Gabrielle Frances",
         "rowIndex": 1,
         "section": "Criminal - Warrant",
         "tabKey": "participants",
@@ -430,36 +663,38 @@
       "source": "kcsc.participants"
     },
     {
-      "attorneys": [],
+      "attorneys": [
+        "KING COUNTY, PROSECUTING ATTY"
+      ],
       "case_number": "261009194KNT",
-      "name": "KING COUNTY, PROSECUTING ATTY",
+      "name": "STATE OF WASHINGTON",
       "party_address": null,
       "party_id": "261009194KNT:party:2",
       "party_seq": 2,
-      "party_type": "STATE OF WASHINGTON",
+      "party_type": "Plaintiff",
       "raw": {
         "caseNumber": "26-1-00919-4 KNT",
         "caseTypeKey": "criminal",
-        "name": "KING COUNTY, PROSECUTING ATTY",
+        "name": "STATE OF WASHINGTON",
         "portalCaseId": "8051859",
         "rawCells": [
+          "Plaintiff",
           "STATE OF WASHINGTON",
-          "KING COUNTY, PROSECUTING ATTY",
-          ""
+          "KING COUNTY, PROSECUTING ATTY"
         ],
         "rawHeaders": [
           "Type",
           "Name",
           "Represented By"
         ],
-        "rawLine": "STATE OF WASHINGTON\tKING COUNTY, PROSECUTING ATTY",
+        "rawLine": "Plaintiff\tSTATE OF WASHINGTON\tKING COUNTY, PROSECUTING ATTY",
         "rawTabId": "8051859:participants",
         "recordId": "8051859:participants:row:2",
-        "representedBy": "",
+        "representedBy": "KING COUNTY, PROSECUTING ATTY",
         "rowIndex": 2,
         "section": "Criminal - Warrant",
         "tabKey": "participants",
-        "type": "STATE OF WASHINGTON"
+        "type": "Plaintiff"
       },
       "source": "kcsc.participants"
     }
@@ -473,16 +708,20 @@
       "caseTypeText": "1 - Criminal",
       "chargeOrCause": "VEHICULAR ASSAULT-DRIVE UND INFL",
       "dateText": "06/24/2026",
-      "detailCapturedAt": "2026-06-30T16:58:46.178Z",
+      "detailCapturedAt": "2026-09-04T11:19:47.654Z",
+      "detailError": {},
+      "detailErrorCapturedAt": "",
       "detailHref": "https://dja-prd-ecexap1.kingcounty.gov/node/411?q=node/405/8051859",
+      "detailStatus": "captured",
+      "detailUnavailableReason": "",
       "discoveredTabCount": 6,
       "filingDate": "06/24/2026",
-      "nextHearing": "Arraignment Hearing 07/08/2026",
+      "nextHearing": "Arraignment Hearing 09/21/2026",
       "pageNum": 1,
       "portalCaseId": "8051859",
       "portalNodeId": "405",
-      "rawDetailRecordRef": "case-details-combined.ndjson:573",
-      "rawSearchRowRef": "search-rows.ndjson:573",
+      "rawDetailRecordRef": "case-details.ndjson:150",
+      "rawSearchRowRef": "search-rows.ndjson:150",
       "searchKey": "criminal_06_24_2026",
       "status": "Warrant 06/24/2026"
     }
@@ -490,5 +729,5 @@
   "source": "kcsc_portal",
   "source_url": "https://dja-prd-ecexap1.kingcounty.gov/node/411?q=node/405/8051859",
   "status": "Warrant 06/24/2026",
-  "updated_at": "2026-06-30T16:58:46.178Z"
+  "updated_at": "2026-09-04T11:19:47.654Z"
 }
