@@ -1,5 +1,75 @@
 {
-  "attorneys": [],
+  "attorneys": [
+    {
+      "address": null,
+      "attorney_id": "name:add5b1847896fee4",
+      "bar_number": null,
+      "case_number": "262208310SEA",
+      "contact_block": null,
+      "name": "Harms, Joshua D",
+      "parties_represented": [
+        {
+          "name": "McFarland, Helen",
+          "party_seq": 1
+        },
+        {
+          "name": "McFarland, Helen",
+          "party_seq": 2
+        }
+      ],
+      "raw": [
+        {
+          "caseNumber": "26-2-20831-0 SEA",
+          "caseTypeKey": "civil",
+          "name": "McFarland, Helen",
+          "portalCaseId": "8080096",
+          "rawCells": [
+            "Complaint - filed on 06/29/2026",
+            "McFarland, Helen",
+            "Harms, Joshua D"
+          ],
+          "rawHeaders": [
+            "Type",
+            "Name",
+            "Represented By"
+          ],
+          "rawLine": "Complaint - filed on 06/29/2026\tMcFarland, Helen\tHarms, Joshua D",
+          "rawTabId": "8080096:participants",
+          "recordId": "8080096:participants:row:1",
+          "representedBy": "Harms, Joshua D",
+          "rowIndex": 1,
+          "section": "Commercial - Completed/Re-Completed",
+          "tabKey": "participants",
+          "type": "Complaint - filed on 06/29/2026"
+        },
+        {
+          "caseNumber": "26-2-20831-0 SEA",
+          "caseTypeKey": "civil",
+          "name": "McFarland, Helen",
+          "portalCaseId": "8080096",
+          "rawCells": [
+            "Bailey, Mark Anderson",
+            "McFarland, Helen",
+            "Harms, Joshua D"
+          ],
+          "rawHeaders": [
+            "Type",
+            "Name",
+            "Represented By"
+          ],
+          "rawLine": "Bailey, Mark Anderson\tMcFarland, Helen\tHarms, Joshua D",
+          "rawTabId": "8080096:participants",
+          "recordId": "8080096:participants:row:2",
+          "representedBy": "Harms, Joshua D",
+          "rowIndex": 2,
+          "section": "Commercial - Completed/Re-Completed",
+          "tabKey": "participants",
+          "type": "Bailey, Mark Anderson"
+        }
+      ],
+      "source": "kcsc.participants"
+    }
+  ],
   "calendar": [
     {
       "calendar_seq": 1,
@@ -38,11 +108,49 @@
         "type": "Trial Date"
       },
       "source": "kcsc.events"
+    },
+    {
+      "calendar_seq": 2,
+      "case_number": "262208310SEA",
+      "court_date": "2026-07-31",
+      "department": null,
+      "hearing_time": "08:30",
+      "hearing_type": "Motion w/o Oral Argument",
+      "judge": "LIMITED ADMISSION",
+      "location": null,
+      "matters": "LIMITED ADMISSION",
+      "raw": {
+        "additionalInfo": "LIMITED ADMISSION",
+        "caseNumber": "26-2-20831-0 SEA",
+        "caseTypeKey": "civil",
+        "dateTime": "07/31/2026 08:30 AM",
+        "portalCaseId": "8080096",
+        "rawCells": [
+          "07/31/2026 08:30 AM",
+          "Motion w/o Oral Argument",
+          "LIMITED ADMISSION"
+        ],
+        "rawHeaders": [
+          "Date/Time",
+          "Type",
+          "Additional Info",
+          "Official",
+          "Location"
+        ],
+        "rawLine": "\t  07/31/2026 08:30 AM\tMotion w/o Oral Argument\tLIMITED ADMISSION\t\t",
+        "rawTabId": "8080096:events_docket",
+        "recordId": "8080096:events_docket:row:2",
+        "rowIndex": 2,
+        "section": "Hearings",
+        "tabKey": "events_docket",
+        "type": "Motion w/o Oral Argument"
+      },
+      "source": "kcsc.events"
     }
   ],
-  "captured_at": "2026-07-02T07:06:24.545Z",
+  "captured_at": "2026-09-04T22:33:47.276Z",
   "case_number": "262208310SEA",
-  "case_title": "DECKER OBO VS KEYBANK NA ET ANO",
+  "case_title": "ELCON CORPORATION ET ANO VS KEYBANK NA ET ANO",
   "case_type": "civil",
   "cause_of_action": "Commercial",
   "court": "King County Superior Court",
@@ -70,8 +178,8 @@
         ],
         "rawLine": "\t  Complaint - COM - Commercial filed on 06/29/2026",
         "rawTabId": "8080096:events_docket",
-        "recordId": "8080096:events_docket:row:3",
-        "rowIndex": 3,
+        "recordId": "8080096:events_docket:row:4",
+        "rowIndex": 4,
         "section": "Case Schedule - SubCase",
         "subcase": "Complaint - COM - Commercial filed on 06/29/2026",
         "tabKey": "events_docket"
@@ -102,8 +210,8 @@
         ],
         "rawLine": "\t    Filing Statement of Arbitrability\t12/07/2026",
         "rawTabId": "8080096:events_docket",
-        "recordId": "8080096:events_docket:row:4",
-        "rowIndex": 4,
+        "recordId": "8080096:events_docket:row:5",
+        "rowIndex": 5,
         "section": "Case Schedule - SubCase",
         "subcase": "Filing Statement of Arbitrability",
         "tabKey": "events_docket"
@@ -134,8 +242,8 @@
         ],
         "rawLine": "\t    Confirmation of Joinder if not subject to Arbitration\t12/07/2026",
         "rawTabId": "8080096:events_docket",
-        "recordId": "8080096:events_docket:row:5",
-        "rowIndex": 5,
+        "recordId": "8080096:events_docket:row:6",
+        "rowIndex": 6,
         "section": "Case Schedule - SubCase",
         "subcase": "Confirmation of Joinder if not subject to Arbitration",
         "tabKey": "events_docket"
@@ -166,8 +274,8 @@
         ],
         "rawLine": "\t    Hearing Motions to Change Case Assignment Area\t12/21/2026",
         "rawTabId": "8080096:events_docket",
-        "recordId": "8080096:events_docket:row:6",
-        "rowIndex": 6,
+        "recordId": "8080096:events_docket:row:7",
+        "rowIndex": 7,
         "section": "Case Schedule - SubCase",
         "subcase": "Hearing Motions to Change Case Assignment Area",
         "tabKey": "events_docket"
@@ -198,8 +306,8 @@
         ],
         "rawLine": "\t    Joint Confirmation of Trial Readiness\t06/14/2027",
         "rawTabId": "8080096:events_docket",
-        "recordId": "8080096:events_docket:row:7",
-        "rowIndex": 7,
+        "recordId": "8080096:events_docket:row:8",
+        "rowIndex": 8,
         "section": "Case Schedule - SubCase",
         "subcase": "Joint Confirmation of Trial Readiness",
         "tabKey": "events_docket"
@@ -230,8 +338,8 @@
         ],
         "rawLine": "\t    Exchange Witness & Exhibit Lists & Documentary Exhibits\t06/14/2027",
         "rawTabId": "8080096:events_docket",
-        "recordId": "8080096:events_docket:row:8",
-        "rowIndex": 8,
+        "recordId": "8080096:events_docket:row:9",
+        "rowIndex": 9,
         "section": "Case Schedule - SubCase",
         "subcase": "Exchange Witness & Exhibit Lists & Documentary Exhibits",
         "tabKey": "events_docket"
@@ -262,8 +370,8 @@
         ],
         "rawLine": "\t    Engaging in Alternative Dispute Resolution\t06/07/2027",
         "rawTabId": "8080096:events_docket",
-        "recordId": "8080096:events_docket:row:9",
-        "rowIndex": 9,
+        "recordId": "8080096:events_docket:row:10",
+        "rowIndex": 10,
         "section": "Case Schedule - SubCase",
         "subcase": "Engaging in Alternative Dispute Resolution",
         "tabKey": "events_docket"
@@ -294,8 +402,8 @@
         ],
         "rawLine": "\t    Discovery Cutoff\t05/17/2027",
         "rawTabId": "8080096:events_docket",
-        "recordId": "8080096:events_docket:row:10",
-        "rowIndex": 10,
+        "recordId": "8080096:events_docket:row:11",
+        "rowIndex": 11,
         "section": "Case Schedule - SubCase",
         "subcase": "Discovery Cutoff",
         "tabKey": "events_docket"
@@ -326,8 +434,8 @@
         ],
         "rawLine": "\t    Joint Statement of Evidence\t06/28/2027",
         "rawTabId": "8080096:events_docket",
-        "recordId": "8080096:events_docket:row:11",
-        "rowIndex": 11,
+        "recordId": "8080096:events_docket:row:12",
+        "rowIndex": 12,
         "section": "Case Schedule - SubCase",
         "subcase": "Joint Statement of Evidence",
         "tabKey": "events_docket"
@@ -358,8 +466,8 @@
         ],
         "rawLine": "\t    Disclosure of Possible Additional Witnesses\t03/15/2027",
         "rawTabId": "8080096:events_docket",
-        "recordId": "8080096:events_docket:row:12",
-        "rowIndex": 12,
+        "recordId": "8080096:events_docket:row:13",
+        "rowIndex": 13,
         "section": "Case Schedule - SubCase",
         "subcase": "Disclosure of Possible Additional Witnesses",
         "tabKey": "events_docket"
@@ -390,8 +498,8 @@
         ],
         "rawLine": "\t    Disclosure of Possible Primary Witnesses\t02/01/2027",
         "rawTabId": "8080096:events_docket",
-        "recordId": "8080096:events_docket:row:13",
-        "rowIndex": 13,
+        "recordId": "8080096:events_docket:row:14",
+        "rowIndex": 14,
         "section": "Case Schedule - SubCase",
         "subcase": "Disclosure of Possible Primary Witnesses",
         "tabKey": "events_docket"
@@ -422,8 +530,8 @@
         ],
         "rawLine": "\t    Trial Briefs, Proposed Findings of Fact and Conclusions of Law\t06/28/2027",
         "rawTabId": "8080096:events_docket",
-        "recordId": "8080096:events_docket:row:14",
-        "rowIndex": 14,
+        "recordId": "8080096:events_docket:row:15",
+        "rowIndex": 15,
         "section": "Case Schedule - SubCase",
         "subcase": "Trial Briefs, Proposed Findings of Fact and Conclusions of Law",
         "tabKey": "events_docket"
@@ -454,8 +562,8 @@
         ],
         "rawLine": "\t    Hearing Dispositive Pretrial Motions\t06/21/2027",
         "rawTabId": "8080096:events_docket",
-        "recordId": "8080096:events_docket:row:15",
-        "rowIndex": 15,
+        "recordId": "8080096:events_docket:row:16",
+        "rowIndex": 16,
         "section": "Case Schedule - SubCase",
         "subcase": "Hearing Dispositive Pretrial Motions",
         "tabKey": "events_docket"
@@ -486,8 +594,8 @@
         ],
         "rawLine": "\t    Change in Trial Date\t03/29/2027",
         "rawTabId": "8080096:events_docket",
-        "recordId": "8080096:events_docket:row:16",
-        "rowIndex": 16,
+        "recordId": "8080096:events_docket:row:17",
+        "rowIndex": 17,
         "section": "Case Schedule - SubCase",
         "subcase": "Change in Trial Date",
         "tabKey": "events_docket"
@@ -518,8 +626,8 @@
         ],
         "rawLine": "\t    Trial Date\t07/05/2027",
         "rawTabId": "8080096:events_docket",
-        "recordId": "8080096:events_docket:row:17",
-        "rowIndex": 17,
+        "recordId": "8080096:events_docket:row:18",
+        "rowIndex": 18,
         "section": "Case Schedule - SubCase",
         "subcase": "Trial Date",
         "tabKey": "events_docket"
@@ -550,8 +658,8 @@
         ],
         "rawLine": "\t    DEADLINE for Jury Demand\t03/29/2027",
         "rawTabId": "8080096:events_docket",
-        "recordId": "8080096:events_docket:row:18",
-        "rowIndex": 18,
+        "recordId": "8080096:events_docket:row:19",
+        "rowIndex": 19,
         "section": "Case Schedule - SubCase",
         "subcase": "DEADLINE for Jury Demand",
         "tabKey": "events_docket"
@@ -580,8 +688,8 @@
         ],
         "rawLine": "Time Standards ",
         "rawTabId": "8080096:events_docket",
-        "recordId": "8080096:events_docket:row:19",
-        "rowIndex": 19,
+        "recordId": "8080096:events_docket:row:20",
+        "rowIndex": 20,
         "section": "Case Schedule - SubCase",
         "subcase": "Time Standards",
         "tabKey": "events_docket"
@@ -602,7 +710,7 @@
     "charge_rows": [],
     "date_text": "06/29/2026",
     "detail_error": {},
-    "detail_status": null,
+    "detail_status": "captured",
     "detail_unavailable_reason": null,
     "document_byte_capture": "not_attempted",
     "document_rows_deferred": [
@@ -637,7 +745,7 @@
         "tabKey": "documents"
       },
       {
-        "additionalInformation": "Plaintiff - JASON P DECKER",
+        "additionalInformation": "Plaintiff - ELCON CORPORATION",
         "caseNumber": "26-2-20831-0 SEA",
         "caseTypeKey": "civil",
         "dateFiled": "06/29/2026",
@@ -648,7 +756,7 @@
           "4",
           "06/29/2026",
           "SM - Summons",
-          "Plaintiff - JASON P DECKER",
+          "Plaintiff - ELCON CORPORATION",
           "2"
         ],
         "rawHeaders": [
@@ -660,7 +768,7 @@
           "Page #",
           "Seal"
         ],
-        "rawLine": "\t  4\t06/29/2026\tSM - Summons\t\tPlaintiff - JASON P DECKER\t2\t",
+        "rawLine": "\t  4\t06/29/2026\tSM - Summons\t\tPlaintiff - ELCON CORPORATION\t2\t",
         "rawTabId": "8080096:documents",
         "recordId": "8080096:documents:row:2",
         "rowIndex": 2,
@@ -729,10 +837,258 @@
         "section": "Documents List",
         "subNumber": "2",
         "tabKey": "documents"
+      },
+      {
+        "additionalInformation": "LIMITED ADMISSION",
+        "caseNumber": "26-2-20831-0 SEA",
+        "caseTypeKey": "civil",
+        "dateFiled": "07/13/2026",
+        "documentName": "NTHG - Notice of Hearing",
+        "filedBy": "Plaintiff - ELCON CORPORATION",
+        "pageCount": "2",
+        "portalCaseId": "8080096",
+        "rawCells": [
+          "5",
+          "07/13/2026",
+          "NTHG - Notice of Hearing",
+          "LIMITED ADMISSION",
+          "Plaintiff - ELCON CORPORATION",
+          "2"
+        ],
+        "rawHeaders": [
+          "Sub Number",
+          "Date Filed",
+          "Document Name",
+          "Additional Information",
+          "Filed By",
+          "Page #",
+          "Seal"
+        ],
+        "rawLine": "\t  5\t07/13/2026\tNTHG - Notice of Hearing\tLIMITED ADMISSION\tPlaintiff - ELCON CORPORATION\t2\t",
+        "rawTabId": "8080096:documents",
+        "recordId": "8080096:documents:row:5",
+        "rowIndex": 5,
+        "section": "Documents List",
+        "subNumber": "5",
+        "tabKey": "documents"
+      },
+      {
+        "additionalInformation": "FOR LIMITED ADMISSION",
+        "caseNumber": "26-2-20831-0 SEA",
+        "caseTypeKey": "civil",
+        "dateFiled": "07/13/2026",
+        "documentName": "MT - Motion",
+        "filedBy": "Plaintiff - ELCON CORPORATION",
+        "pageCount": "6",
+        "portalCaseId": "8080096",
+        "rawCells": [
+          "6",
+          "07/13/2026",
+          "MT - Motion",
+          "FOR LIMITED ADMISSION",
+          "Plaintiff - ELCON CORPORATION",
+          "6"
+        ],
+        "rawHeaders": [
+          "Sub Number",
+          "Date Filed",
+          "Document Name",
+          "Additional Information",
+          "Filed By",
+          "Page #",
+          "Seal"
+        ],
+        "rawLine": "\t  6\t07/13/2026\tMT - Motion\tFOR LIMITED ADMISSION\tPlaintiff - ELCON CORPORATION\t6\t",
+        "rawTabId": "8080096:documents",
+        "recordId": "8080096:documents:row:6",
+        "rowIndex": 6,
+        "section": "Documents List",
+        "subNumber": "6",
+        "tabKey": "documents"
+      },
+      {
+        "additionalInformation": "Clerk",
+        "caseNumber": "26-2-20831-0 SEA",
+        "caseTypeKey": "civil",
+        "dateFiled": "07/13/2026",
+        "documentName": "AFSRES - Affidavit / Declaration / Certificate of eService",
+        "filedBy": "1",
+        "portalCaseId": "8080096",
+        "rawCells": [
+          "7",
+          "07/13/2026",
+          "AFSRES - Affidavit / Declaration / Certificate of eService",
+          "Clerk",
+          "1"
+        ],
+        "rawHeaders": [
+          "Sub Number",
+          "Date Filed",
+          "Document Name",
+          "Additional Information",
+          "Filed By",
+          "Page #",
+          "Seal"
+        ],
+        "rawLine": "\t  7\t07/13/2026\tAFSRES - Affidavit / Declaration / Certificate of eService\t\tClerk\t1\t",
+        "rawTabId": "8080096:documents",
+        "recordId": "8080096:documents:row:7",
+        "rowIndex": 7,
+        "section": "Documents List",
+        "subNumber": "7",
+        "tabKey": "documents"
+      },
+      {
+        "additionalInformation": "Defendant - DALE A CONDER",
+        "caseNumber": "26-2-20831-0 SEA",
+        "caseTypeKey": "civil",
+        "dateFiled": "07/14/2026",
+        "documentName": "NTAPR - Notice of Appearance",
+        "portalCaseId": "8080096",
+        "rawCells": [
+          "8",
+          "07/14/2026",
+          "NTAPR - Notice of Appearance",
+          "Defendant - DALE A CONDER"
+        ],
+        "rawHeaders": [
+          "Sub Number",
+          "Date Filed",
+          "Document Name",
+          "Additional Information",
+          "Filed By",
+          "Page #",
+          "Seal"
+        ],
+        "rawLine": "\t  8\t07/14/2026\tNTAPR - Notice of Appearance\t\tDefendant - DALE A CONDER",
+        "rawTabId": "8080096:documents",
+        "recordId": "8080096:documents:row:8",
+        "rowIndex": 8,
+        "section": "Documents List",
+        "subNumber": "8",
+        "tabKey": "documents"
+      },
+      {
+        "caseNumber": "26-2-20831-0 SEA",
+        "caseTypeKey": "civil",
+        "dateFiled": "3",
+        "portalCaseId": "8080096",
+        "rawCells": [
+          "Defendant - KEYBANK NA",
+          "3"
+        ],
+        "rawHeaders": [
+          "Sub Number",
+          "Date Filed",
+          "Document Name",
+          "Additional Information",
+          "Filed By",
+          "Page #",
+          "Seal"
+        ],
+        "rawLine": "Defendant - KEYBANK NA\t3\t",
+        "rawTabId": "8080096:documents",
+        "recordId": "8080096:documents:row:9",
+        "rowIndex": 9,
+        "section": "Documents List",
+        "subNumber": "Defendant - KEYBANK NA",
+        "tabKey": "documents"
+      },
+      {
+        "additionalInformation": "362",
+        "caseNumber": "26-2-20831-0 SEA",
+        "caseTypeKey": "civil",
+        "dateFiled": "07/27/2026",
+        "documentName": "NTFPR - Notice of Filing Petition for Removal to U.S. District Court",
+        "portalCaseId": "8080096",
+        "rawCells": [
+          "9",
+          "07/27/2026",
+          "NTFPR - Notice of Filing Petition for Removal to U.S. District Court",
+          "362"
+        ],
+        "rawHeaders": [
+          "Sub Number",
+          "Date Filed",
+          "Document Name",
+          "Additional Information",
+          "Filed By",
+          "Page #",
+          "Seal"
+        ],
+        "rawLine": "\t  9\t07/27/2026\tNTFPR - Notice of Filing Petition for Removal to U.S. District Court\t\t\t362\t",
+        "rawTabId": "8080096:documents",
+        "recordId": "8080096:documents:row:10",
+        "rowIndex": 10,
+        "section": "Documents List",
+        "subNumber": "9",
+        "tabKey": "documents"
+      },
+      {
+        "additionalInformation": "2",
+        "caseNumber": "26-2-20831-0 SEA",
+        "caseTypeKey": "civil",
+        "dateFiled": "07/27/2026",
+        "documentName": "AFSRS - Affidavit / Declaration / Certificate Of Service - Served",
+        "portalCaseId": "8080096",
+        "rawCells": [
+          "10",
+          "07/27/2026",
+          "AFSRS - Affidavit / Declaration / Certificate Of Service - Served",
+          "2"
+        ],
+        "rawHeaders": [
+          "Sub Number",
+          "Date Filed",
+          "Document Name",
+          "Additional Information",
+          "Filed By",
+          "Page #",
+          "Seal"
+        ],
+        "rawLine": "\t  10\t07/27/2026\tAFSRS - Affidavit / Declaration / Certificate Of Service - Served\t\t\t2\t",
+        "rawTabId": "8080096:documents",
+        "recordId": "8080096:documents:row:11",
+        "rowIndex": 11,
+        "section": "Documents List",
+        "subNumber": "10",
+        "tabKey": "documents"
+      },
+      {
+        "additionalInformation": "MR GHOSH & MR EVAN BIANCHI",
+        "caseNumber": "26-2-20831-0 SEA",
+        "caseTypeKey": "civil",
+        "dateFiled": "08/03/2026",
+        "documentName": "ORAPHV - Order Appointing Pro Hac Vice",
+        "filedBy": "3",
+        "portalCaseId": "8080096",
+        "rawCells": [
+          "11",
+          "08/03/2026",
+          "ORAPHV - Order Appointing Pro Hac Vice",
+          "MR GHOSH & MR EVAN BIANCHI",
+          "3"
+        ],
+        "rawHeaders": [
+          "Sub Number",
+          "Date Filed",
+          "Document Name",
+          "Additional Information",
+          "Filed By",
+          "Page #",
+          "Seal"
+        ],
+        "rawLine": "\t  11\t08/03/2026\tORAPHV - Order Appointing Pro Hac Vice\tMR GHOSH & MR EVAN BIANCHI\t\t3\t",
+        "rawTabId": "8080096:documents",
+        "recordId": "8080096:documents:row:12",
+        "rowIndex": 12,
+        "section": "Documents List",
+        "subNumber": "11",
+        "tabKey": "documents"
       }
     ],
     "judgment_rows": [],
-    "next_hearing": "Trial Date 07/05/2027",
+    "next_hearing": null,
     "portal_case_id": "8080096",
     "portal_node_id": "420",
     "raw_tab_summaries": [
@@ -750,10 +1106,10 @@
           "Documents List"
         ],
         "label": "Document List",
-        "pageTextLength": 1087,
-        "pageTextSha256": "fbc9979f91dfe954d03a401668abe87987271163990f8eae0e87e746de64b13a",
+        "pageTextLength": 1745,
+        "pageTextSha256": "40434667f11acde7817b7fa6a961267ca042a01cb1c6b960b88eb12ea6b25a7e",
         "portalCaseId": "8080096",
-        "rawDetailRecordRef": "case-details.ndjson:12",
+        "rawDetailRecordRef": "case-details.ndjson:20",
         "rawTabId": "8080096:documents",
         "tabKey": "documents",
         "tableCount": 5,
@@ -776,10 +1132,10 @@
           "Time Standards"
         ],
         "label": "Events",
-        "pageTextLength": 1779,
-        "pageTextSha256": "c2164ba48912a94f515fa26d209caeb4ed65afdc33190646a9029fcb178a8c2e",
+        "pageTextLength": 1877,
+        "pageTextSha256": "21f47a132468e9f813edc1d453c1529b913108296295ed288b9fcd0658d849a0",
         "portalCaseId": "8080096",
-        "rawDetailRecordRef": "case-details.ndjson:12",
+        "rawDetailRecordRef": "case-details.ndjson:20",
         "rawTabId": "8080096:events_docket",
         "tabKey": "events_docket",
         "tableCount": 6,
@@ -800,10 +1156,10 @@
           "Judgments"
         ],
         "label": "Judgments",
-        "pageTextLength": 815,
-        "pageTextSha256": "3a7800e01bfe9e6d201fedacb40e653f067a81b1d6d388d1f90fafbccaaae66c",
+        "pageTextLength": 845,
+        "pageTextSha256": "f1015f4e70af7c88a8ed37cd0f26029b31b93e3a02a4f054ccac2e04d1df6296",
         "portalCaseId": "8080096",
-        "rawDetailRecordRef": "case-details.ndjson:12",
+        "rawDetailRecordRef": "case-details.ndjson:20",
         "rawTabId": "8080096:judgments",
         "tabKey": "judgments",
         "tableCount": 5,
@@ -824,10 +1180,10 @@
           "Participants"
         ],
         "label": "Participants",
-        "pageTextLength": 935,
-        "pageTextSha256": "692b555741a66b8be04b3bea12fb067ec8aa18c8cd65278f4c88221a8cd0b7b9",
+        "pageTextLength": 1160,
+        "pageTextSha256": "930df8d6f7b62f9c1a847826cc1a35ac8b7456e7cbed221af4ca533d31d23cfe",
         "portalCaseId": "8080096",
-        "rawDetailRecordRef": "case-details.ndjson:12",
+        "rawDetailRecordRef": "case-details.ndjson:20",
         "rawTabId": "8080096:participants",
         "tabKey": "participants",
         "tableCount": 4,
@@ -849,10 +1205,10 @@
           "SubCase Filings"
         ],
         "label": "Summary",
-        "pageTextLength": 929,
-        "pageTextSha256": "ed8952c6ced7f16621bf12433a9ceb37b62a475021812b762f01ebe9f34f9251",
+        "pageTextLength": 989,
+        "pageTextSha256": "9810f4def966d64835cb192400995786db9862b758f8247a008f3cd9cda4863f",
         "portalCaseId": "8080096",
-        "rawDetailRecordRef": "case-details.ndjson:12",
+        "rawDetailRecordRef": "case-details.ndjson:20",
         "rawTabId": "8080096:summary",
         "tabKey": "summary",
         "tableCount": 5,
@@ -860,34 +1216,111 @@
         "url": "https://dja-prd-ecexap1.kingcounty.gov/node/420?Id=8080096&folder=FV-Public-Case-Summary-Portal"
       }
     ],
-    "source_status": "Active 06/29/2026"
+    "source_status": "Completed 07/27/2026"
   },
-  "parties": [],
+  "parties": [
+    {
+      "attorneys": [
+        "Harms, Joshua D"
+      ],
+      "case_number": "262208310SEA",
+      "name": "McFarland, Helen",
+      "party_address": null,
+      "party_id": "262208310SEA:party:1",
+      "party_seq": 1,
+      "party_type": "Complaint - filed on 06/29/2026",
+      "raw": {
+        "caseNumber": "26-2-20831-0 SEA",
+        "caseTypeKey": "civil",
+        "name": "McFarland, Helen",
+        "portalCaseId": "8080096",
+        "rawCells": [
+          "Complaint - filed on 06/29/2026",
+          "McFarland, Helen",
+          "Harms, Joshua D"
+        ],
+        "rawHeaders": [
+          "Type",
+          "Name",
+          "Represented By"
+        ],
+        "rawLine": "Complaint - filed on 06/29/2026\tMcFarland, Helen\tHarms, Joshua D",
+        "rawTabId": "8080096:participants",
+        "recordId": "8080096:participants:row:1",
+        "representedBy": "Harms, Joshua D",
+        "rowIndex": 1,
+        "section": "Commercial - Completed/Re-Completed",
+        "tabKey": "participants",
+        "type": "Complaint - filed on 06/29/2026"
+      },
+      "source": "kcsc.participants"
+    },
+    {
+      "attorneys": [
+        "Harms, Joshua D"
+      ],
+      "case_number": "262208310SEA",
+      "name": "McFarland, Helen",
+      "party_address": null,
+      "party_id": "262208310SEA:party:2",
+      "party_seq": 2,
+      "party_type": "Bailey, Mark Anderson",
+      "raw": {
+        "caseNumber": "26-2-20831-0 SEA",
+        "caseTypeKey": "civil",
+        "name": "McFarland, Helen",
+        "portalCaseId": "8080096",
+        "rawCells": [
+          "Bailey, Mark Anderson",
+          "McFarland, Helen",
+          "Harms, Joshua D"
+        ],
+        "rawHeaders": [
+          "Type",
+          "Name",
+          "Represented By"
+        ],
+        "rawLine": "Bailey, Mark Anderson\tMcFarland, Helen\tHarms, Joshua D",
+        "rawTabId": "8080096:participants",
+        "recordId": "8080096:participants:row:2",
+        "representedBy": "Harms, Joshua D",
+        "rowIndex": 2,
+        "section": "Commercial - Completed/Re-Completed",
+        "tabKey": "participants",
+        "type": "Bailey, Mark Anderson"
+      },
+      "source": "kcsc.participants"
+    }
+  ],
   "payments": [],
   "raw": {
     "case": {
-      "caseName": "DECKER OBO VS KEYBANK NA ET ANO",
+      "caseName": "ELCON CORPORATION ET ANO VS KEYBANK NA ET ANO",
       "caseNumber": "26-2-20831-0 SEA",
       "caseTypeKey": "civil",
       "caseTypeText": "2 - Civil",
       "chargeOrCause": "Commercial",
       "dateText": "06/29/2026",
-      "detailCapturedAt": "2026-07-02T07:06:24.545Z",
+      "detailCapturedAt": "2026-09-04T22:33:47.276Z",
+      "detailError": {},
+      "detailErrorCapturedAt": "",
       "detailHref": "https://dja-prd-ecexap1.kingcounty.gov/node/411?q=node/420/8080096",
+      "detailStatus": "captured",
+      "detailUnavailableReason": "",
       "discoveredTabCount": 5,
       "filingDate": "06/29/2026",
-      "nextHearing": "Trial Date 07/05/2027",
+      "nextHearing": "",
       "pageNum": 1,
       "portalCaseId": "8080096",
       "portalNodeId": "420",
-      "rawDetailRecordRef": "case-details.ndjson:12",
-      "rawSearchRowRef": "search-rows.ndjson:12",
+      "rawDetailRecordRef": "case-details.ndjson:20",
+      "rawSearchRowRef": "search-rows.ndjson:20",
       "searchKey": "civil_06_29_2026",
-      "status": "Active 06/29/2026"
+      "status": "Completed 07/27/2026"
     }
   },
   "source": "kcsc_portal",
   "source_url": "https://dja-prd-ecexap1.kingcounty.gov/node/411?q=node/420/8080096",
-  "status": "Active 06/29/2026",
-  "updated_at": "2026-07-02T07:06:24.545Z"
+  "status": "Completed 07/27/2026",
+  "updated_at": "2026-09-04T22:33:47.276Z"
 }
