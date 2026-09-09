@@ -26,7 +26,7 @@
       "representation_count",
       "status"
     ],
-    "cases": 499841,
+    "cases": 500347,
     "cases_dir": "archive/cases",
     "cases_index": "archive/cases-index/manifest.json",
     "cases_index_format": "ndjson-prefix-shards-v1",
@@ -40,26 +40,26 @@
       {
         "path": "archive/cases-index/091.ndjson",
         "prefix": "091",
-        "rows": 3131,
-        "size_bytes": 1828363
+        "rows": 3155,
+        "size_bytes": 1842330
       },
       {
         "path": "archive/cases-index/092.ndjson",
         "prefix": "092",
-        "rows": 21491,
-        "size_bytes": 12012029
+        "rows": 21701,
+        "size_bytes": 12129154
       },
       {
         "path": "archive/cases-index/093.ndjson",
         "prefix": "093",
-        "rows": 3829,
-        "size_bytes": 2125094
+        "rows": 3866,
+        "size_bytes": 2145584
       },
       {
         "path": "archive/cases-index/094.ndjson",
         "prefix": "094",
-        "rows": 2841,
-        "size_bytes": 1550598
+        "rows": 2867,
+        "size_bytes": 1564795
       },
       {
         "path": "archive/cases-index/101.ndjson",
@@ -298,26 +298,26 @@
       {
         "path": "archive/cases-index/241.ndjson",
         "prefix": "241",
-        "rows": 3562,
-        "size_bytes": 2087475
+        "rows": 3575,
+        "size_bytes": 2095110
       },
       {
         "path": "archive/cases-index/242.ndjson",
         "prefix": "242",
-        "rows": 19353,
-        "size_bytes": 10850597
+        "rows": 19480,
+        "size_bytes": 10921652
       },
       {
         "path": "archive/cases-index/243.ndjson",
         "prefix": "243",
-        "rows": 4423,
-        "size_bytes": 2558346
+        "rows": 4451,
+        "size_bytes": 2574466
       },
       {
         "path": "archive/cases-index/244.ndjson",
         "prefix": "244",
-        "rows": 5964,
-        "size_bytes": 3269273
+        "rows": 6005,
+        "size_bytes": 3291740
       },
       {
         "path": "archive/cases-index/251.ndjson",
@@ -369,8 +369,8 @@
       }
     ],
     "cases_index_prefix_length": 3,
-    "cases_index_rows": 499841,
-    "cases_index_size_bytes": 280498025
+    "cases_index_rows": 500347,
+    "cases_index_size_bytes": 280781081
   },
   "court": "King County Superior Court",
   "court_id": "kcsc",
@@ -383,37 +383,37 @@
     "charges": {
       "case_index_field": "charge_count",
       "detail_path": "kcsc.charge_rows",
-      "rows": 185852
+      "rows": 185971
     },
     "counsel": {
       "case_index_field": "attorney_count",
       "detail_path": "attorneys",
-      "rows": 112188
+      "rows": 112280
     },
     "docket": {
       "case_index_field": "docket_entry_count",
       "detail_path": "docket_entries",
-      "rows": 2152998
+      "rows": 2154480
     },
     "documents": {
       "case_index_field": "document_index_count",
       "detail_path": "kcsc.document_rows_deferred",
-      "rows": 11516497
+      "rows": 11527116
     },
     "hearings": {
       "case_index_field": "calendar_count",
       "detail_path": "calendar",
-      "rows": 1647131
+      "rows": 1648224
     },
     "judgments": {
       "case_index_field": "judgment_count",
       "detail_path": "kcsc.judgment_rows",
-      "rows": 2257838
+      "rows": 2260479
     },
     "parties": {
       "case_index_field": "party_count",
       "detail_path": "parties",
-      "rows": 184129
+      "rows": 184275
     },
     "payments": {
       "case_index_field": "payment_count",
@@ -423,11 +423,11 @@
     "representation": {
       "case_index_field": "representation_count",
       "detail_path": "representation",
-      "rows": 116490
+      "rows": 116590
     }
   },
   "format": "kcsc-data-manifest-v1",
-  "generated_at": "2026-09-09T08:51:34Z",
+  "generated_at": "2026-09-09T11:21:39Z",
   "jurisdiction": "King County, WA",
   "normalization": {
     "archive_dir": "/srv/kcsc-data/archive/cases",
@@ -2878,6 +2878,8 @@
       "/var/lib/kcsc/runs/kcsc-incremental-20260909T033612Z-20240823-20240823/detail-merged/normalized",
       "/var/lib/kcsc/runs/kcsc-incremental-20260909T040311Z-20110802-20110802/detail-merged/normalized",
       "/var/lib/kcsc/runs/kcsc-incremental-20260909T065832Z-20110803-20110803/detail-merged/normalized",
+      "/var/lib/kcsc/runs/kcsc-incremental-20260909T074433Z-20240826-20240826/detail-merged/normalized",
+      "/var/lib/kcsc/runs/kcsc-incremental-20260909T083837Z-20090702-20090702/detail-merged/normalized",
       "/var/lib/kcsc/current-runs/kcsc-incremental-20260730T085614Z-20260704-20260706/detail-merged/normalized",
       "/var/lib/kcsc/current-runs/kcsc-incremental-20260730T122856Z-20260707-20260709/detail-merged/normalized",
       "/var/lib/kcsc/current-runs/kcsc-incremental-20260730T180307Z-20260710-20260712/detail-merged/normalized",
@@ -2905,13 +2907,13 @@
     ],
     "out_dir": "/srv/kcsc-data/data",
     "tables": {
-      "attorneys": 112188,
-      "calendar": 1647131,
-      "cases": 499841,
-      "docket_entries": 2152998,
-      "parties": 184129,
+      "attorneys": 112280,
+      "calendar": 1648224,
+      "cases": 500347,
+      "docket_entries": 2154480,
+      "parties": 184275,
       "payments": 0,
-      "representation": 116490
+      "representation": 116590
     }
   },
   "source": "kcsc_portal",
@@ -2923,7 +2925,7 @@
       "filing_year": "Calendar year parsed from the canonical filed_date; unparseable dates are grouped as unknown."
     },
     "filing_year_coverage": {
-      "checked_at": "2026-09-09T08:03:18Z",
+      "checked_at": "2026-09-09T11:03:33Z",
       "from": "1979-07-01",
       "required_case_types": [
         "civil",
@@ -3115,7 +3117,7 @@
           "year": "2008"
         },
         {
-          "complete_days": 182,
+          "complete_days": 183,
           "expected_days": 365,
           "status": "partial",
           "year": "2009"
@@ -3205,7 +3207,7 @@
           "year": "2023"
         },
         {
-          "complete_days": 246,
+          "complete_days": 248,
           "expected_days": 366,
           "status": "partial",
           "year": "2024"
@@ -3237,21 +3239,21 @@
       ]
     },
     "format": "kcsc-statistics-v1",
-    "generated_at": "2026-09-09T08:51:34Z",
+    "generated_at": "2026-09-09T11:21:39Z",
     "grain": "one canonical case",
     "ranking_sources": {
       "attorney_rankings": {
         "format": "kcsc-attorney-rankings-v1",
         "path": "data/attorney-practice-rankings.json",
-        "rows": 19768,
-        "size_bytes": 15596135,
+        "rows": 19782,
+        "size_bytes": 15607023,
         "topics": 5
       },
       "judgment_rankings": {
         "format": "kcsc-judgment-rankings-v1",
         "path": "data/judgment-rankings.json",
-        "rows": 95710,
-        "size_bytes": 49003648
+        "rows": 95754,
+        "size_bytes": 49028897
       }
     },
     "segments": [
@@ -3259,25 +3261,25 @@
         "breakdowns": {
           "case_type": [
             {
-              "cases": 299644,
+              "cases": 299981,
               "value": "civil"
             },
             {
-              "cases": 77315,
+              "cases": 77382,
               "value": "probate"
             },
             {
-              "cases": 67051,
+              "cases": 67116,
               "value": "family"
             },
             {
-              "cases": 55831,
+              "cases": 55868,
               "value": "criminal"
             }
           ],
           "filing_year": [
             {
-              "cases": 31288,
+              "cases": 31585,
               "value": "2009"
             },
             {
@@ -3313,7 +3315,7 @@
               "value": "2023"
             },
             {
-              "cases": 33290,
+              "cases": 33499,
               "value": "2024"
             },
             {
@@ -3327,31 +3329,31 @@
           ],
           "location": [
             {
-              "cases": 304643,
+              "cases": 304967,
               "value": "SEA"
             },
             {
-              "cases": 195198,
+              "cases": 195380,
               "value": "KNT"
             }
           ],
           "portal_node": [
             {
-              "cases": 444010,
+              "cases": 444479,
               "value": "420"
             },
             {
-              "cases": 55831,
+              "cases": 55868,
               "value": "405"
             }
           ],
           "status_group": [
             {
-              "cases": 445766,
+              "cases": 446238,
               "value": "Completed"
             },
             {
-              "cases": 47313,
+              "cases": 47344,
               "value": "Active"
             },
             {
@@ -3359,7 +3361,7 @@
               "value": "Warrant"
             },
             {
-              "cases": 1608,
+              "cases": 1609,
               "value": "Warrant FTA"
             },
             {
@@ -3367,11 +3369,11 @@
               "value": "Appeal"
             },
             {
-              "cases": 682,
+              "cases": 683,
               "value": "In Arbitration"
             },
             {
-              "cases": 435,
+              "cases": 436,
               "value": "Stay"
             },
             {
@@ -3425,43 +3427,43 @@
           ]
         },
         "case_type": "",
-        "cases": 499841,
+        "cases": 500347,
         "features": {
           "charges": {
-            "cases": 55756,
-            "rows": 185852
+            "cases": 55793,
+            "rows": 185971
           },
           "counsel": {
-            "cases": 86710,
-            "rows": 112188
+            "cases": 86780,
+            "rows": 112280
           },
           "docket": {
-            "cases": 132082,
-            "rows": 2152998
+            "cases": 132173,
+            "rows": 2154480
           },
           "documents": {
-            "cases": 499828,
-            "rows": 11516497
+            "cases": 500334,
+            "rows": 11527116
           },
           "hearings": {
-            "cases": 323085,
-            "rows": 1647131
+            "cases": 323408,
+            "rows": 1648224
           },
           "judgments": {
-            "cases": 168575,
-            "rows": 2257838
+            "cases": 168767,
+            "rows": 2260479
           },
           "parties": {
-            "cases": 117810,
-            "rows": 184129
+            "cases": 117900,
+            "rows": 184275
           },
           "payments": {
             "cases": 0,
             "rows": 0
           },
           "representation": {
-            "cases": 86710,
-            "rows": 116490
+            "cases": 86780,
+            "rows": 116590
           }
         },
         "id": "all",
@@ -3471,13 +3473,13 @@
         "breakdowns": {
           "case_type": [
             {
-              "cases": 299644,
+              "cases": 299981,
               "value": "civil"
             }
           ],
           "filing_year": [
             {
-              "cases": 21489,
+              "cases": 21699,
               "value": "2009"
             },
             {
@@ -3513,7 +3515,7 @@
               "value": "2023"
             },
             {
-              "cases": 19350,
+              "cases": 19477,
               "value": "2024"
             },
             {
@@ -3527,27 +3529,27 @@
           ],
           "location": [
             {
-              "cases": 175228,
+              "cases": 175452,
               "value": "SEA"
             },
             {
-              "cases": 124416,
+              "cases": 124529,
               "value": "KNT"
             }
           ],
           "portal_node": [
             {
-              "cases": 299644,
+              "cases": 299981,
               "value": "420"
             }
           ],
           "status_group": [
             {
-              "cases": 284878,
+              "cases": 285207,
               "value": "Completed"
             },
             {
-              "cases": 12943,
+              "cases": 12951,
               "value": "Active"
             },
             {
@@ -3605,43 +3607,43 @@
           ]
         },
         "case_type": "civil",
-        "cases": 299644,
+        "cases": 299981,
         "features": {
           "charges": {
             "cases": 0,
             "rows": 0
           },
           "counsel": {
-            "cases": 28932,
-            "rows": 35555
+            "cases": 28964,
+            "rows": 35592
           },
           "docket": {
-            "cases": 76442,
-            "rows": 1303585
+            "cases": 76499,
+            "rows": 1304554
           },
           "documents": {
-            "cases": 299640,
-            "rows": 4964150
+            "cases": 299977,
+            "rows": 4969318
           },
           "hearings": {
-            "cases": 183448,
-            "rows": 447145
+            "cases": 183649,
+            "rows": 447585
           },
           "judgments": {
-            "cases": 135220,
-            "rows": 2078705
+            "cases": 135383,
+            "rows": 2081142
           },
           "parties": {
-            "cases": 53970,
-            "rows": 68974
+            "cases": 54019,
+            "rows": 69042
           },
           "payments": {
             "cases": 0,
             "rows": 0
           },
           "representation": {
-            "cases": 28932,
-            "rows": 39762
+            "cases": 28964,
+            "rows": 39807
           }
         },
         "id": "type:civil",
@@ -3651,13 +3653,13 @@
         "breakdowns": {
           "case_type": [
             {
-              "cases": 55831,
+              "cases": 55868,
               "value": "criminal"
             }
           ],
           "filing_year": [
             {
-              "cases": 3131,
+              "cases": 3155,
               "value": "2009"
             },
             {
@@ -3693,7 +3695,7 @@
               "value": "2023"
             },
             {
-              "cases": 3562,
+              "cases": 3575,
               "value": "2024"
             },
             {
@@ -3707,23 +3709,23 @@
           ],
           "location": [
             {
-              "cases": 33703,
+              "cases": 33724,
               "value": "SEA"
             },
             {
-              "cases": 22128,
+              "cases": 22144,
               "value": "KNT"
             }
           ],
           "portal_node": [
             {
-              "cases": 55831,
+              "cases": 55868,
               "value": "405"
             }
           ],
           "status_group": [
             {
-              "cases": 47322,
+              "cases": 47358,
               "value": "Completed"
             },
             {
@@ -3735,7 +3737,7 @@
               "value": "Warrant"
             },
             {
-              "cases": 1568,
+              "cases": 1569,
               "value": "Warrant FTA"
             },
             {
@@ -3769,43 +3771,43 @@
           ]
         },
         "case_type": "criminal",
-        "cases": 55831,
+        "cases": 55868,
         "features": {
           "charges": {
-            "cases": 55756,
-            "rows": 185852
+            "cases": 55793,
+            "rows": 185971
           },
           "counsel": {
-            "cases": 55829,
-            "rows": 74336
+            "cases": 55866,
+            "rows": 74390
           },
           "docket": {
             "cases": 569,
             "rows": 6018
           },
           "documents": {
-            "cases": 55823,
-            "rows": 2627913
+            "cases": 55860,
+            "rows": 2629548
           },
           "hearings": {
-            "cases": 54265,
-            "rows": 880007
+            "cases": 54302,
+            "rows": 880290
           },
           "judgments": {
-            "cases": 28291,
-            "rows": 72846
+            "cases": 28313,
+            "rows": 72924
           },
           "parties": {
-            "cases": 55831,
-            "rows": 106731
+            "cases": 55868,
+            "rows": 106805
           },
           "payments": {
             "cases": 0,
             "rows": 0
           },
           "representation": {
-            "cases": 55829,
-            "rows": 74336
+            "cases": 55866,
+            "rows": 74390
           }
         },
         "id": "type:criminal",
@@ -3815,13 +3817,13 @@
         "breakdowns": {
           "case_type": [
             {
-              "cases": 67051,
+              "cases": 67116,
               "value": "family"
             }
           ],
           "filing_year": [
             {
-              "cases": 3827,
+              "cases": 3864,
               "value": "2009"
             },
             {
@@ -3857,7 +3859,7 @@
               "value": "2023"
             },
             {
-              "cases": 4416,
+              "cases": 4444,
               "value": "2024"
             },
             {
@@ -3871,27 +3873,27 @@
           ],
           "location": [
             {
-              "cases": 41064,
+              "cases": 41097,
               "value": "SEA"
             },
             {
-              "cases": 25987,
+              "cases": 26019,
               "value": "KNT"
             }
           ],
           "portal_node": [
             {
-              "cases": 67051,
+              "cases": 67116,
               "value": "420"
             }
           ],
           "status_group": [
             {
-              "cases": 61178,
+              "cases": 61240,
               "value": "Completed"
             },
             {
-              "cases": 5597,
+              "cases": 5598,
               "value": "Active"
             },
             {
@@ -3899,7 +3901,7 @@
               "value": "Appeal"
             },
             {
-              "cases": 46,
+              "cases": 47,
               "value": "In Arbitration"
             },
             {
@@ -3911,7 +3913,7 @@
               "value": "Warrant"
             },
             {
-              "cases": 18,
+              "cases": 19,
               "value": "Stay"
             },
             {
@@ -3945,7 +3947,7 @@
           ]
         },
         "case_type": "family",
-        "cases": 67051,
+        "cases": 67116,
         "features": {
           "charges": {
             "cases": 0,
@@ -3956,24 +3958,24 @@
             "rows": 1195
           },
           "docket": {
-            "cases": 47633,
-            "rows": 761159
+            "cases": 47661,
+            "rows": 761636
           },
           "documents": {
-            "cases": 67050,
-            "rows": 2356511
+            "cases": 67115,
+            "rows": 2358874
           },
           "hearings": {
-            "cases": 66860,
-            "rows": 257888
+            "cases": 66925,
+            "rows": 258163
           },
           "judgments": {
-            "cases": 4799,
-            "rows": 100218
+            "cases": 4806,
+            "rows": 100344
           },
           "parties": {
-            "cases": 3896,
-            "rows": 4088
+            "cases": 3899,
+            "rows": 4091
           },
           "payments": {
             "cases": 0,
@@ -3991,13 +3993,13 @@
         "breakdowns": {
           "case_type": [
             {
-              "cases": 77315,
+              "cases": 77382,
               "value": "probate"
             }
           ],
           "filing_year": [
             {
-              "cases": 2841,
+              "cases": 2867,
               "value": "2009"
             },
             {
@@ -4033,7 +4035,7 @@
               "value": "2023"
             },
             {
-              "cases": 5962,
+              "cases": 6003,
               "value": "2024"
             },
             {
@@ -4047,27 +4049,27 @@
           ],
           "location": [
             {
-              "cases": 54648,
+              "cases": 54694,
               "value": "SEA"
             },
             {
-              "cases": 22667,
+              "cases": 22688,
               "value": "KNT"
             }
           ],
           "portal_node": [
             {
-              "cases": 77315,
+              "cases": 77382,
               "value": "420"
             }
           ],
           "status_group": [
             {
-              "cases": 52388,
+              "cases": 52433,
               "value": "Completed"
             },
             {
-              "cases": 24878,
+              "cases": 24900,
               "value": "Active"
             },
             {
@@ -4101,43 +4103,43 @@
           ]
         },
         "case_type": "probate",
-        "cases": 77315,
+        "cases": 77382,
         "features": {
           "charges": {
             "cases": 0,
             "rows": 0
           },
           "counsel": {
-            "cases": 1041,
-            "rows": 1102
+            "cases": 1042,
+            "rows": 1103
           },
           "docket": {
-            "cases": 7438,
-            "rows": 82236
+            "cases": 7444,
+            "rows": 82272
           },
           "documents": {
-            "cases": 77315,
-            "rows": 1567923
+            "cases": 77382,
+            "rows": 1569376
           },
           "hearings": {
-            "cases": 18512,
-            "rows": 62091
+            "cases": 18532,
+            "rows": 62186
           },
           "judgments": {
             "cases": 265,
             "rows": 6069
           },
           "parties": {
-            "cases": 4113,
-            "rows": 4336
+            "cases": 4114,
+            "rows": 4337
           },
           "payments": {
             "cases": 0,
             "rows": 0
           },
           "representation": {
-            "cases": 1041,
-            "rows": 1157
+            "cases": 1042,
+            "rows": 1158
           }
         },
         "id": "type:probate",
@@ -4147,25 +4149,25 @@
         "breakdowns": {
           "case_type": [
             {
-              "cases": 124416,
+              "cases": 124529,
               "value": "civil"
             },
             {
-              "cases": 25987,
+              "cases": 26019,
               "value": "family"
             },
             {
-              "cases": 22667,
+              "cases": 22688,
               "value": "probate"
             },
             {
-              "cases": 22128,
+              "cases": 22144,
               "value": "criminal"
             }
           ],
           "filing_year": [
             {
-              "cases": 12018,
+              "cases": 12109,
               "value": "2009"
             },
             {
@@ -4201,7 +4203,7 @@
               "value": "2023"
             },
             {
-              "cases": 13546,
+              "cases": 13637,
               "value": "2024"
             },
             {
@@ -4215,27 +4217,27 @@
           ],
           "location": [
             {
-              "cases": 195198,
+              "cases": 195380,
               "value": "KNT"
             }
           ],
           "portal_node": [
             {
-              "cases": 173070,
+              "cases": 173236,
               "value": "420"
             },
             {
-              "cases": 22128,
+              "cases": 22144,
               "value": "405"
             }
           ],
           "status_group": [
             {
-              "cases": 177469,
+              "cases": 177635,
               "value": "Completed"
             },
             {
-              "cases": 15535,
+              "cases": 15550,
               "value": "Active"
             },
             {
@@ -4251,7 +4253,7 @@
               "value": "Appeal"
             },
             {
-              "cases": 287,
+              "cases": 288,
               "value": "In Arbitration"
             },
             {
@@ -4297,43 +4299,43 @@
           ]
         },
         "case_type": "",
-        "cases": 195198,
+        "cases": 195380,
         "features": {
           "charges": {
-            "cases": 22108,
-            "rows": 71580
+            "cases": 22124,
+            "rows": 71625
           },
           "counsel": {
-            "cases": 32250,
-            "rows": 41454
+            "cases": 32275,
+            "rows": 41491
           },
           "docket": {
-            "cases": 47638,
-            "rows": 773378
+            "cases": 47676,
+            "rows": 774003
           },
           "documents": {
-            "cases": 195198,
-            "rows": 4227606
+            "cases": 195380,
+            "rows": 4232241
           },
           "hearings": {
-            "cases": 128156,
-            "rows": 645771
+            "cases": 128289,
+            "rows": 646266
           },
           "judgments": {
-            "cases": 71911,
-            "rows": 955148
+            "cases": 71967,
+            "rows": 955890
           },
           "parties": {
-            "cases": 42383,
-            "rows": 65828
+            "cases": 42412,
+            "rows": 65882
           },
           "payments": {
             "cases": 0,
             "rows": 0
           },
           "representation": {
-            "cases": 32250,
-            "rows": 41961
+            "cases": 32275,
+            "rows": 42002
           }
         },
         "id": "location:KNT",
@@ -4343,25 +4345,25 @@
         "breakdowns": {
           "case_type": [
             {
-              "cases": 175228,
+              "cases": 175452,
               "value": "civil"
             },
             {
-              "cases": 54648,
+              "cases": 54694,
               "value": "probate"
             },
             {
-              "cases": 41064,
+              "cases": 41097,
               "value": "family"
             },
             {
-              "cases": 33703,
+              "cases": 33724,
               "value": "criminal"
             }
           ],
           "filing_year": [
             {
-              "cases": 19270,
+              "cases": 19476,
               "value": "2009"
             },
             {
@@ -4397,7 +4399,7 @@
               "value": "2023"
             },
             {
-              "cases": 19744,
+              "cases": 19862,
               "value": "2024"
             },
             {
@@ -4411,27 +4413,27 @@
           ],
           "location": [
             {
-              "cases": 304643,
+              "cases": 304967,
               "value": "SEA"
             }
           ],
           "portal_node": [
             {
-              "cases": 270940,
+              "cases": 271243,
               "value": "420"
             },
             {
-              "cases": 33703,
+              "cases": 33724,
               "value": "405"
             }
           ],
           "status_group": [
             {
-              "cases": 268297,
+              "cases": 268603,
               "value": "Completed"
             },
             {
-              "cases": 31778,
+              "cases": 31794,
               "value": "Active"
             },
             {
@@ -4439,7 +4441,7 @@
               "value": "Warrant"
             },
             {
-              "cases": 1056,
+              "cases": 1057,
               "value": "Warrant FTA"
             },
             {
@@ -4451,7 +4453,7 @@
               "value": "In Arbitration"
             },
             {
-              "cases": 374,
+              "cases": 375,
               "value": "Stay"
             },
             {
@@ -4501,43 +4503,43 @@
           ]
         },
         "case_type": "",
-        "cases": 304643,
+        "cases": 304967,
         "features": {
           "charges": {
-            "cases": 33648,
-            "rows": 114272
+            "cases": 33669,
+            "rows": 114346
           },
           "counsel": {
-            "cases": 54460,
-            "rows": 70734
+            "cases": 54505,
+            "rows": 70789
           },
           "docket": {
-            "cases": 84444,
-            "rows": 1379620
+            "cases": 84497,
+            "rows": 1380477
           },
           "documents": {
-            "cases": 304630,
-            "rows": 7288891
+            "cases": 304954,
+            "rows": 7294875
           },
           "hearings": {
-            "cases": 194929,
-            "rows": 1001360
+            "cases": 195119,
+            "rows": 1001958
           },
           "judgments": {
-            "cases": 96664,
-            "rows": 1302690
+            "cases": 96800,
+            "rows": 1304589
           },
           "parties": {
-            "cases": 75427,
-            "rows": 118301
+            "cases": 75488,
+            "rows": 118393
           },
           "payments": {
             "cases": 0,
             "rows": 0
           },
           "representation": {
-            "cases": 54460,
-            "rows": 74529
+            "cases": 54505,
+            "rows": 74588
           }
         },
         "id": "location:SEA",
@@ -4547,13 +4549,13 @@
         "breakdowns": {
           "case_type": [
             {
-              "cases": 124416,
+              "cases": 124529,
               "value": "civil"
             }
           ],
           "filing_year": [
             {
-              "cases": 8547,
+              "cases": 8607,
               "value": "2009"
             },
             {
@@ -4589,7 +4591,7 @@
               "value": "2023"
             },
             {
-              "cases": 8380,
+              "cases": 8433,
               "value": "2024"
             },
             {
@@ -4603,23 +4605,23 @@
           ],
           "location": [
             {
-              "cases": 124416,
+              "cases": 124529,
               "value": "KNT"
             }
           ],
           "portal_node": [
             {
-              "cases": 124416,
+              "cases": 124529,
               "value": "420"
             }
           ],
           "status_group": [
             {
-              "cases": 119479,
+              "cases": 119587,
               "value": "Completed"
             },
             {
-              "cases": 4440,
+              "cases": 4445,
               "value": "Active"
             },
             {
@@ -4665,43 +4667,43 @@
           ]
         },
         "case_type": "civil",
-        "cases": 124416,
+        "cases": 124529,
         "features": {
           "charges": {
             "cases": 0,
             "rows": 0
           },
           "counsel": {
-            "cases": 9627,
-            "rows": 11258
+            "cases": 9635,
+            "rows": 11268
           },
           "docket": {
-            "cases": 25983,
-            "rows": 445281
+            "cases": 26000,
+            "rows": 445570
           },
           "documents": {
-            "cases": 124416,
-            "rows": 1821500
+            "cases": 124529,
+            "rows": 1823246
           },
           "hearings": {
-            "cases": 73601,
-            "rows": 167999
+            "cases": 73674,
+            "rows": 168158
           },
           "judgments": {
-            "cases": 57956,
-            "rows": 886445
+            "cases": 57998,
+            "rows": 887066
           },
           "parties": {
-            "cases": 18120,
-            "rows": 21283
+            "cases": 18131,
+            "rows": 21303
           },
           "payments": {
             "cases": 0,
             "rows": 0
           },
           "representation": {
-            "cases": 9627,
-            "rows": 11746
+            "cases": 9635,
+            "rows": 11760
           }
         },
         "id": "type:civil|location:KNT",
@@ -4711,13 +4713,13 @@
         "breakdowns": {
           "case_type": [
             {
-              "cases": 175228,
+              "cases": 175452,
               "value": "civil"
             }
           ],
           "filing_year": [
             {
-              "cases": 12942,
+              "cases": 13092,
               "value": "2009"
             },
             {
@@ -4753,7 +4755,7 @@
               "value": "2023"
             },
             {
-              "cases": 10970,
+              "cases": 11044,
               "value": "2024"
             },
             {
@@ -4767,23 +4769,23 @@
           ],
           "location": [
             {
-              "cases": 175228,
+              "cases": 175452,
               "value": "SEA"
             }
           ],
           "portal_node": [
             {
-              "cases": 175228,
+              "cases": 175452,
               "value": "420"
             }
           ],
           "status_group": [
             {
-              "cases": 165399,
+              "cases": 165620,
               "value": "Completed"
             },
             {
-              "cases": 8503,
+              "cases": 8506,
               "value": "Active"
             },
             {
@@ -4841,43 +4843,43 @@
           ]
         },
         "case_type": "civil",
-        "cases": 175228,
+        "cases": 175452,
         "features": {
           "charges": {
             "cases": 0,
             "rows": 0
           },
           "counsel": {
-            "cases": 19305,
-            "rows": 24297
+            "cases": 19329,
+            "rows": 24324
           },
           "docket": {
-            "cases": 50459,
-            "rows": 858304
+            "cases": 50499,
+            "rows": 858984
           },
           "documents": {
-            "cases": 175224,
-            "rows": 3142650
+            "cases": 175448,
+            "rows": 3146072
           },
           "hearings": {
-            "cases": 109847,
-            "rows": 279146
+            "cases": 109975,
+            "rows": 279427
           },
           "judgments": {
-            "cases": 77264,
-            "rows": 1192260
+            "cases": 77385,
+            "rows": 1194076
           },
           "parties": {
-            "cases": 35850,
-            "rows": 47691
+            "cases": 35888,
+            "rows": 47739
           },
           "payments": {
             "cases": 0,
             "rows": 0
           },
           "representation": {
-            "cases": 19305,
-            "rows": 28016
+            "cases": 19329,
+            "rows": 28047
           }
         },
         "id": "type:civil|location:SEA",
@@ -4887,13 +4889,13 @@
         "breakdowns": {
           "case_type": [
             {
-              "cases": 22128,
+              "cases": 22144,
               "value": "criminal"
             }
           ],
           "filing_year": [
             {
-              "cases": 1253,
+              "cases": 1264,
               "value": "2009"
             },
             {
@@ -4929,7 +4931,7 @@
               "value": "2023"
             },
             {
-              "cases": 1561,
+              "cases": 1566,
               "value": "2024"
             },
             {
@@ -4943,19 +4945,19 @@
           ],
           "location": [
             {
-              "cases": 22128,
+              "cases": 22144,
               "value": "KNT"
             }
           ],
           "portal_node": [
             {
-              "cases": 22128,
+              "cases": 22144,
               "value": "405"
             }
           ],
           "status_group": [
             {
-              "cases": 18856,
+              "cases": 18872,
               "value": "Completed"
             },
             {
@@ -4997,43 +4999,43 @@
           ]
         },
         "case_type": "criminal",
-        "cases": 22128,
+        "cases": 22144,
         "features": {
           "charges": {
-            "cases": 22108,
-            "rows": 71580
+            "cases": 22124,
+            "rows": 71625
           },
           "counsel": {
-            "cases": 22128,
-            "rows": 29619
+            "cases": 22144,
+            "rows": 29645
           },
           "docket": {
             "cases": 134,
             "rows": 1440
           },
           "documents": {
-            "cases": 22128,
-            "rows": 1048879
+            "cases": 22144,
+            "rows": 1049572
           },
           "hearings": {
-            "cases": 21672,
-            "rows": 343320
+            "cases": 21688,
+            "rows": 343417
           },
           "judgments": {
-            "cases": 12071,
-            "rows": 31210
+            "cases": 12081,
+            "rows": 31251
           },
           "parties": {
-            "cases": 22128,
-            "rows": 42327
+            "cases": 22144,
+            "rows": 42359
           },
           "payments": {
             "cases": 0,
             "rows": 0
           },
           "representation": {
-            "cases": 22128,
-            "rows": 29619
+            "cases": 22144,
+            "rows": 29645
           }
         },
         "id": "type:criminal|location:KNT",
@@ -5043,13 +5045,13 @@
         "breakdowns": {
           "case_type": [
             {
-              "cases": 33703,
+              "cases": 33724,
               "value": "criminal"
             }
           ],
           "filing_year": [
             {
-              "cases": 1878,
+              "cases": 1891,
               "value": "2009"
             },
             {
@@ -5085,7 +5087,7 @@
               "value": "2023"
             },
             {
-              "cases": 2001,
+              "cases": 2009,
               "value": "2024"
             },
             {
@@ -5099,19 +5101,19 @@
           ],
           "location": [
             {
-              "cases": 33703,
+              "cases": 33724,
               "value": "SEA"
             }
           ],
           "portal_node": [
             {
-              "cases": 33703,
+              "cases": 33724,
               "value": "405"
             }
           ],
           "status_group": [
             {
-              "cases": 28466,
+              "cases": 28486,
               "value": "Completed"
             },
             {
@@ -5123,7 +5125,7 @@
               "value": "Warrant"
             },
             {
-              "cases": 1030,
+              "cases": 1031,
               "value": "Warrant FTA"
             },
             {
@@ -5157,43 +5159,43 @@
           ]
         },
         "case_type": "criminal",
-        "cases": 33703,
+        "cases": 33724,
         "features": {
           "charges": {
-            "cases": 33648,
-            "rows": 114272
+            "cases": 33669,
+            "rows": 114346
           },
           "counsel": {
-            "cases": 33701,
-            "rows": 44717
+            "cases": 33722,
+            "rows": 44745
           },
           "docket": {
             "cases": 435,
             "rows": 4578
           },
           "documents": {
-            "cases": 33695,
-            "rows": 1579034
+            "cases": 33716,
+            "rows": 1579976
           },
           "hearings": {
-            "cases": 32593,
-            "rows": 536687
+            "cases": 32614,
+            "rows": 536873
           },
           "judgments": {
-            "cases": 16220,
-            "rows": 41636
+            "cases": 16232,
+            "rows": 41673
           },
           "parties": {
-            "cases": 33703,
-            "rows": 64404
+            "cases": 33724,
+            "rows": 64446
           },
           "payments": {
             "cases": 0,
             "rows": 0
           },
           "representation": {
-            "cases": 33701,
-            "rows": 44717
+            "cases": 33722,
+            "rows": 44745
           }
         },
         "id": "type:criminal|location:SEA",
@@ -5203,13 +5205,13 @@
         "breakdowns": {
           "case_type": [
             {
-              "cases": 25987,
+              "cases": 26019,
               "value": "family"
             }
           ],
           "filing_year": [
             {
-              "cases": 1507,
+              "cases": 1522,
               "value": "2009"
             },
             {
@@ -5245,7 +5247,7 @@
               "value": "2023"
             },
             {
-              "cases": 1666,
+              "cases": 1683,
               "value": "2024"
             },
             {
@@ -5259,23 +5261,23 @@
           ],
           "location": [
             {
-              "cases": 25987,
+              "cases": 26019,
               "value": "KNT"
             }
           ],
           "portal_node": [
             {
-              "cases": 25987,
+              "cases": 26019,
               "value": "420"
             }
           ],
           "status_group": [
             {
-              "cases": 23773,
+              "cases": 23803,
               "value": "Completed"
             },
             {
-              "cases": 2122,
+              "cases": 2123,
               "value": "Active"
             },
             {
@@ -5291,7 +5293,7 @@
               "value": "Warrant FTA"
             },
             {
-              "cases": 11,
+              "cases": 12,
               "value": "In Arbitration"
             },
             {
@@ -5317,7 +5319,7 @@
           ]
         },
         "case_type": "family",
-        "cases": 25987,
+        "cases": 26019,
         "features": {
           "charges": {
             "cases": 0,
@@ -5328,24 +5330,24 @@
             "rows": 350
           },
           "docket": {
-            "cases": 18474,
-            "rows": 296108
+            "cases": 18491,
+            "rows": 296414
           },
           "documents": {
-            "cases": 25987,
-            "rows": 890321
+            "cases": 26019,
+            "rows": 891803
           },
           "hearings": {
-            "cases": 25933,
-            "rows": 109693
+            "cases": 25965,
+            "rows": 109864
           },
           "judgments": {
-            "cases": 1803,
-            "rows": 35707
+            "cases": 1807,
+            "rows": 35787
           },
           "parties": {
-            "cases": 1274,
-            "rows": 1313
+            "cases": 1275,
+            "rows": 1314
           },
           "payments": {
             "cases": 0,
@@ -5363,13 +5365,13 @@
         "breakdowns": {
           "case_type": [
             {
-              "cases": 41064,
+              "cases": 41097,
               "value": "family"
             }
           ],
           "filing_year": [
             {
-              "cases": 2320,
+              "cases": 2342,
               "value": "2009"
             },
             {
@@ -5405,7 +5407,7 @@
               "value": "2023"
             },
             {
-              "cases": 2750,
+              "cases": 2761,
               "value": "2024"
             },
             {
@@ -5419,19 +5421,19 @@
           ],
           "location": [
             {
-              "cases": 41064,
+              "cases": 41097,
               "value": "SEA"
             }
           ],
           "portal_node": [
             {
-              "cases": 41064,
+              "cases": 41097,
               "value": "420"
             }
           ],
           "status_group": [
             {
-              "cases": 37405,
+              "cases": 37437,
               "value": "Completed"
             },
             {
@@ -5451,7 +5453,7 @@
               "value": "Warrant FTA"
             },
             {
-              "cases": 13,
+              "cases": 14,
               "value": "Stay"
             },
             {
@@ -5485,7 +5487,7 @@
           ]
         },
         "case_type": "family",
-        "cases": 41064,
+        "cases": 41097,
         "features": {
           "charges": {
             "cases": 0,
@@ -5496,24 +5498,24 @@
             "rows": 845
           },
           "docket": {
-            "cases": 29159,
-            "rows": 465051
+            "cases": 29170,
+            "rows": 465222
           },
           "documents": {
-            "cases": 41063,
-            "rows": 1466190
+            "cases": 41096,
+            "rows": 1467071
           },
           "hearings": {
-            "cases": 40927,
-            "rows": 148195
+            "cases": 40960,
+            "rows": 148299
           },
           "judgments": {
-            "cases": 2996,
-            "rows": 64511
+            "cases": 2999,
+            "rows": 64557
           },
           "parties": {
-            "cases": 2622,
-            "rows": 2775
+            "cases": 2624,
+            "rows": 2777
           },
           "payments": {
             "cases": 0,
@@ -5531,13 +5533,13 @@
         "breakdowns": {
           "case_type": [
             {
-              "cases": 22667,
+              "cases": 22688,
               "value": "probate"
             }
           ],
           "filing_year": [
             {
-              "cases": 711,
+              "cases": 716,
               "value": "2009"
             },
             {
@@ -5573,7 +5575,7 @@
               "value": "2023"
             },
             {
-              "cases": 1939,
+              "cases": 1955,
               "value": "2024"
             },
             {
@@ -5587,23 +5589,23 @@
           ],
           "location": [
             {
-              "cases": 22667,
+              "cases": 22688,
               "value": "KNT"
             }
           ],
           "portal_node": [
             {
-              "cases": 22667,
+              "cases": 22688,
               "value": "420"
             }
           ],
           "status_group": [
             {
-              "cases": 15361,
+              "cases": 15373,
               "value": "Completed"
             },
             {
-              "cases": 7300,
+              "cases": 7309,
               "value": "Active"
             },
             {
@@ -5621,43 +5623,43 @@
           ]
         },
         "case_type": "probate",
-        "cases": 22667,
+        "cases": 22688,
         "features": {
           "charges": {
             "cases": 0,
             "rows": 0
           },
           "counsel": {
-            "cases": 222,
-            "rows": 227
+            "cases": 223,
+            "rows": 228
           },
           "docket": {
-            "cases": 3047,
-            "rows": 30549
+            "cases": 3051,
+            "rows": 30579
           },
           "documents": {
-            "cases": 22667,
-            "rows": 466906
+            "cases": 22688,
+            "rows": 467620
           },
           "hearings": {
-            "cases": 6950,
-            "rows": 24759
+            "cases": 6962,
+            "rows": 24827
           },
           "judgments": {
             "cases": 81,
             "rows": 1786
           },
           "parties": {
-            "cases": 861,
-            "rows": 905
+            "cases": 862,
+            "rows": 906
           },
           "payments": {
             "cases": 0,
             "rows": 0
           },
           "representation": {
-            "cases": 222,
-            "rows": 239
+            "cases": 223,
+            "rows": 240
           }
         },
         "id": "type:probate|location:KNT",
@@ -5667,13 +5669,13 @@
         "breakdowns": {
           "case_type": [
             {
-              "cases": 54648,
+              "cases": 54694,
               "value": "probate"
             }
           ],
           "filing_year": [
             {
-              "cases": 2130,
+              "cases": 2151,
               "value": "2009"
             },
             {
@@ -5709,7 +5711,7 @@
               "value": "2023"
             },
             {
-              "cases": 4023,
+              "cases": 4048,
               "value": "2024"
             },
             {
@@ -5723,23 +5725,23 @@
           ],
           "location": [
             {
-              "cases": 54648,
+              "cases": 54694,
               "value": "SEA"
             }
           ],
           "portal_node": [
             {
-              "cases": 54648,
+              "cases": 54694,
               "value": "420"
             }
           ],
           "status_group": [
             {
-              "cases": 37027,
+              "cases": 37060,
               "value": "Completed"
             },
             {
-              "cases": 17578,
+              "cases": 17591,
               "value": "Active"
             },
             {
@@ -5769,7 +5771,7 @@
           ]
         },
         "case_type": "probate",
-        "cases": 54648,
+        "cases": 54694,
         "features": {
           "charges": {
             "cases": 0,
@@ -5780,16 +5782,16 @@
             "rows": 875
           },
           "docket": {
-            "cases": 4391,
-            "rows": 51687
+            "cases": 4393,
+            "rows": 51693
           },
           "documents": {
-            "cases": 54648,
-            "rows": 1101017
+            "cases": 54694,
+            "rows": 1101756
           },
           "hearings": {
-            "cases": 11562,
-            "rows": 37332
+            "cases": 11570,
+            "rows": 37359
           },
           "judgments": {
             "cases": 184,
@@ -5817,28 +5819,28 @@
   "tables": {
     "attorneys": {
       "path": "data/attorneys.parquet",
-      "rows": 112188,
-      "size_bytes": 21757242
+      "rows": 112280,
+      "size_bytes": 21775027
     },
     "calendar": {
       "path": "data/calendar.parquet",
-      "rows": 1647131,
-      "size_bytes": 76660669
+      "rows": 1648224,
+      "size_bytes": 76714011
     },
     "cases": {
       "path": "data/cases.parquet",
-      "rows": 499841,
-      "size_bytes": 38711608
+      "rows": 500347,
+      "size_bytes": 38747359
     },
     "docket_entries": {
       "path": "data/docket_entries.parquet",
-      "rows": 2152998,
-      "size_bytes": 50454996
+      "rows": 2154480,
+      "size_bytes": 50485734
     },
     "parties": {
       "path": "data/parties.parquet",
-      "rows": 184129,
-      "size_bytes": 25758908
+      "rows": 184275,
+      "size_bytes": 25780335
     },
     "payments": {
       "path": "data/payments.parquet",
@@ -5847,8 +5849,8 @@
     },
     "representation": {
       "path": "data/representation.parquet",
-      "rows": 116490,
-      "size_bytes": 21875139
+      "rows": 116590,
+      "size_bytes": 21893154
     }
   }
 }
